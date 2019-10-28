@@ -5,8 +5,8 @@
 		<title>Positioning - and FLoating - Elements</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="css/reset.css" type="text/css">
-		<link href="css/main.css" type="text/css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 		<script src="js/jquery.js"></script>
@@ -16,12 +16,20 @@
 	
 	<body>
 		<header id="header">
-			<nav>
-				<ul>
+			<nav id="nav-id">
+				<ul class="ul-nav-bar" id="ul-left">
 					<li><i class="fas fa-bars"></i></li>
 					<li><i class="fas fa-search"></i></li>
-					<li><span>SPACE & COSMOS</span></li>
+					<li><span id="text-left">SPACE & COSMOS</span></li>
 				</ul>
+				
+				<img id="logo" src="img/new_york_logo.png" alt="new_york_logo">
+				
+				<ul class="ul-nav-bar" id="ul-right">
+					<li><button id="button-nav">Log in</button></li>
+					<li><a id="link-nav" href="#">Suscribe for full access</a></li>
+				</ul>
+				
 			</nav>
 		</header>
 	
