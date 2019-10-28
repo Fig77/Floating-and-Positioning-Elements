@@ -238,7 +238,46 @@ article p{
 	color: #323232; 
 }
 
+#image-jumbo{
+	width: 100%;
+	height: auto;
+}
+
+.article-bottom-link:link{
+	color: #848484;
+}
+
+#article-footer{
+	width:100%;
+}
+
+#article-footer-container{
+	width: 100%;
+	margin-top: 20px;
+}
+
+#article-footer-container button{
+	float:left;
+	width: 50%;
+	height: 36px;
+	background-color: #567b95;
+	border: 1px solid #326891;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#article-footer-container ul{
+	float:right;
+}
+
+#article-footer-container a:link{
+	color:#000;
+}
+
 /* Footer */
 footer{
 	display: block;
+	clear: both;
 }
