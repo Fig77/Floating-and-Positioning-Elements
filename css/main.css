@@ -77,8 +77,8 @@ main{
 #main-header-title{
 	width: 32%;
 	font-size: 40px;
-	margin-left: 30%;
-	color: #323232;
+	margin-left: 28%;
+	color: #191919;
 	font-style: italic;
 	font-weight: bold;
 }
@@ -87,4 +87,14 @@ main{
 	width: 70%;
 	height: auto;
 	margin-left: 15%;
+}
+
+#main-header-figcaption{
+	width: 55%;
+	margin-left: 15%;
+	color: #808080;
+}
+
+#main-header-figcaption span{
+	color: #a6a6a6;
 }
