@@ -275,6 +275,76 @@ article p{
 #article-footer-container a:link{
 	color:#000;
 }
+/* Related-content-Section */
+
+#related-left{
+	
+}
+
+.related-content{
+	float: left;
+	width: 273px;
+	height: 292px;
+	
+}
+
+.related-margin-right{
+	margin-right: 27px;
+}
+
+.related-content img{
+	width: 273px;
+	height: auto;
+}
+
+.caption-text-format{
+	font-size: 10px;
+	color: #808080;
+}
+.related-content figcaption{
+	text-align: right;
+}
+.display-block{
+	display:block;
+}
+
+#related-news{
+	width: 90%;
+	margin-top: 115px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+#related-container{
+	border-top-style: solid;
+	border-width: thin;
+	padding-top: 5px;
+	float: left;
+	width: 72%;
+	
+}
+
+#related-right{
+	border-top-style: solid;
+	border-width: thin;
+	padding-top: 5px;
+	float: right;
+	width: 24%;
+	
+}
+
+#related-right span{
+	display: block;
+	border-top-style: solid;
+	border-top-width: thin;
+	padding-top: 15px;
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: 550;
+}
+
+
 
 /* Footer */
 footer{
