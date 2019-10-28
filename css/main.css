@@ -93,8 +93,45 @@ main{
 	width: 55%;
 	margin-left: 15%;
 	color: #808080;
+	padding-top: 5px;
+	font-size: 17px;
 }
 
 #main-header-figcaption span{
 	color: #a6a6a6;
+}
+
+article {
+	width: 45%;
+	margin-left: 25%;
+	margin-top: 35px;
+}
+
+article p{
+	font-size: 25px;
+	color: #323232;
+}
+
+#article-author{
+	color: black
+	font-weight: bolder;
+	width: 100%;
+	font-size: 15px;
+}
+
+#ate-links-container{
+	width: 100%;
+}
+
+#article-date {
+	float: left;
+}
+
+#article-social-links{
+	float: right;
+	margin: 0;
+}
+
+#article-social-links a:link{
+	color: black;
 }
