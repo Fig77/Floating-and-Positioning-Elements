@@ -1,16 +1,22 @@
+/* classes */
+
+.border-thin-gray{
+	border-style: solid;
+	border-color: #d3d3d3;
+	border-width: thin;
+}
+
 
 /* Header */
-
 #nav-id{
 	position: fixed;
-	border-style: solid;
-	border-top-width: thin;
-	border-bottom-width: thin;
-	border-color: #d3d3d3;
+	border-right-style: none;
+	border-left-style: none;
 	height: 36px;
 	width: 100vw;
 	padding-bottom: 5px;
 	background-color: #fff;
+	z-index: 2;
 }
 
 .ul-nav-bar{
@@ -72,4 +78,98 @@
 /* Main */
 main{
 	padding-top: 35px;
+	padding-left: 50px;
+}
+#article-header{
+	padding-right: 25px;
+}
+
+#main-header-title{
+	width: 35%;
+	font-size: 40px;
+	margin-left: 27%;
+	color: #191919;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#main-header-image{
+	width: 70%;
+	height: auto;
+	margin-left: 15%;
+}
+
+#main-header-figcaption{
+	width: 57%;
+	margin-left: 15%;
+	color: #808080;
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+#main-header-figcaption span{
+	color: #a6a6a6;
+}
+
+#log-in-div{
+	clear: both;
+	
+	border-style: solid;
+	border-width: thin;
+	
+	width: 75%;
+	padding: 14px;
+	margin-top: 65px;
+}
+
+#log-in-div span{
+	display: block;
+}
+
+#span-login-one{
+	font-size: 18px;
+	color: #1b1b1b;
+	font-weight: bold;
+}
+#span-login-two{
+	font-size: 17px;
+	color: #373737;
+}
+#span-login-two a:link{
+	font-size: 14px;
+	color: #0077c5;
+}
+article {
+	width: 45%;
+	margin-left: 25%;
+	margin-top: 35px;
+}
+
+article p{
+	font-size: 25px;
+	color: #323232;
+}
+
+#article-author{
+	color: black
+	font-weight: bolder;
+	width: 100%;
+	font-size: 15px;
+}
+
+#ate-links-container{
+	width: 100%;
+}
+
+#article-date {
+	float: left;
+}
+
+#article-social-links{
+	float: right;
+	margin: 0;
+}
+
+#article-social-links a:link{
+	color: black;
 }
