@@ -73,3 +73,18 @@
 main{
 	padding-top: 35px;
 }
+
+#main-header-title{
+	width: 32%;
+	font-size: 40px;
+	margin-left: 30%;
+	color: #323232;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#main-header-image{
+	width: 70%;
+	height: auto;
+	margin-left: 15%;
+}
