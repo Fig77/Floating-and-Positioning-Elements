@@ -30,7 +30,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+### About The Project
 This is our third Microverse Project.
 
 ### Objective
