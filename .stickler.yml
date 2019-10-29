@@ -1,0 +1,11 @@
+linters:
+  stylelint:
+    config: 'stylelint.config.js'
+files:
+	ignore:
+        - 'css/reset.css'
+  csslint:
+      ignore: 'color-hex-length'
+      ignore: 'universal-selector,order-alphabetical,ids,box-model'
+
+  
