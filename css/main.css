@@ -1,14 +1,21 @@
-/* classes */
+/* general classes */
 
-.border-thin-gray{
+.border-thin-gray {
 	border-style: solid;
 	border-color: #d3d3d3;
 	border-width: thin;
 }
 
+.c-t-align-right {
+	text-align: right;
+}
+
+.display-block {
+	display: block;
+}
 
 /* Header */
-#nav-id{
+#nav-id {
 	position: fixed;
 	border-right-style: none;
 	border-left-style: none;
@@ -19,44 +26,44 @@
 	z-index: 2;
 }
 
-.ul-nav-bar{
-	list-style-type:none;
+.ul-nav-bar {
+	list-style-type: none;
 	position: relative;
 	bottom: 5px;
 }
 
-.ul-nav-bar li{
+.ul-nav-bar li {
 	float: left;
 	padding-right: 25px;
 }
 
-#ul-left{
+#ul-left {
 	float: left;
 	padding-left: 15px;
 }
 
-#ul-right{
-	float: right;
-}
-
-#ul-right li{
-	float: right;
-}
-#text-left{
+#text-left {
 	font-weight: bold;
 	font-size: 15px;
 }
-#logo{
+
+#logo {
 	position: relative;
 	left: 320px;
 	top: 3px;
-	
-
 }
 
-#button-nav{
+#ul-right {
+	float: right;
+}
+
+#ul-right li {
+	float: right;
+}
+
+#button-nav {
 	position: relative;
-	height: 33px;	
+	height: 33px;
 	bottom: 7px;
 	right: 3px;
 	background-color: #323232;
@@ -70,21 +77,24 @@
 	padding-top: 5px;
 }
 
-#link-nav:link{
+#link-nav:link {
 	color: #323232;
 }
 
-
 /* Main */
-main{
+
+main {
 	padding-top: 35px;
 	padding-left: 50px;
 }
-#article-header{
+
+/* Main-Header */
+
+#main-header {
 	padding-right: 25px;
 }
 
-#main-header-title{
+#main-header-title {
 	width: 35%;
 	font-size: 40px;
 	margin-left: 27%;
@@ -93,71 +103,51 @@ main{
 	font-weight: bold;
 }
 
-#main-header-image{
+#main-header-image {
 	width: 70%;
 	height: auto;
 	margin-left: 15%;
 }
 
-#main-header-figcaption{
+#main-header-description {
 	width: 57%;
 	margin-left: 15%;
+	margin-top: 1%;
 	color: #808080;
-	padding-top: 5px;
 	font-size: 16px;
 }
 
-#main-header-figcaption span{
+#main-header-description span {
 	color: #a6a6a6;
 }
 
-#log-in-div{
-	clear: both;
-	
-	border-style: solid;
-	border-width: thin;
-	
-	width: 75%;
-	padding: 14px;
-	margin-top: 65px;
-}
+/* ARTICLE */
 
-#log-in-div span{
-	display: block;
-}
-
-#span-login-one{
-	font-size: 18px;
-	color: #1b1b1b;
-	font-weight: bold;
-}
-#span-login-two{
-	font-size: 17px;
-	color: #373737;
-}
-#span-login-two a:link{
-	font-size: 14px;
-	color: #0077c5;
-}
 article {
 	width: 45%;
 	margin-left: 25%;
 	margin-top: 35px;
 }
 
-article p{
+article p {
 	font-size: 25px;
 	color: #323232;
 }
 
-#article-author{
-	color: black
+/* Article-Header */
+
+#article-header {
+	padding-right: 25px;
+}
+
+#article-author {
+	color: black;
 	font-weight: bolder;
 	width: 100%;
 	font-size: 15px;
 }
 
-#ate-links-container{
+#date-links-container {
 	width: 100%;
 }
 
@@ -165,43 +155,75 @@ article p{
 	float: left;
 }
 
-#article-social-links{
+#article-social-links {
 	float: right;
 	margin: 0;
 }
 
-#article-social-links a:link{
+#article-social-links a:link {
 	color: black;
 }
 
-#inflation-theory-info{
+/* Article-header log-in div */
+
+#log-in-div {
+	clear: both;
+	border-style: solid;
+	border-width: thin;
+	width: 75%;
+	padding: 14px;
+	margin-top: 65px;
+}
+
+#log-in-div span {
+	display: block;
+}
+
+#span-login-one {
+	font-size: 18px;
+	color: #1b1b1b;
+	font-weight: bold;
+}
+#span-login-two {
+	font-size: 17px;
+	color: #373737;
+}
+#span-login-two a:link {
+	font-size: 14px;
+	color: #0077c5;
+}
+
+/* Inflation theory section */
+
+#inflation-theory-info {
 	position: relative;
 	right: 25%;
 	width: 945px;
 }
 
-#inflation-title{
+#inflation-title {
 	margin-bottom: 5px;
 	font-size: 20px;
 }
 
-#inflation-description{
+#inflation-description {
 	margin-top: 5px;
 	font-size: 15px;
 	color: #808080;
 	font-weight: lighter;
 }
-#inf-img{
+
+#inf-img {
 	width: 945px;
 	height: auto;
 }
-#spans-inflation-container{
+
+#spans-inflation-container {
 	position: absolute;
 	top: 150px;
-	
-	
 }
-.span-inflation{
+
+.span-inflation {
 	display: inline-block;
 	width: 220px;
 	font-size: 14px;
@@ -210,54 +232,64 @@ article p{
 	margin-bottom: 50px;
 	margin-top: 100px;
 	word-spacing: 2px;
-	/*text-align: left;*/
 	line-height: 17px;
 	font-weight: 300;
-	
 }
-.span-inflation-margin{
+
+.span-inflation-margin {
 	margin-right: 20px;
 }
-.span-inflation strong{
+
+.span-inflation strong {
 	font-weight: bold;
 }
 
-.separation-line{
+.separation-line {
 	color: #666666;
 	width: 5%;
 	float: left;
 	margin-top: 50px;
 	display: block;
-	
 }
 
-#fig-caption{
+#span-caption-inflation {
+	display: inline-block;
 	margin-top: 65px;
 	font-size: 14px;
 	word-spacing: 2px;
-	color: #323232; 
+	color: #323232;
 }
 
-#image-jumbo{
+/* end of theory of inflation div */
+
+/* Media in article */
+
+#emb-video {
+	width: 100%;
+}
+
+#image-jumbo {
 	width: 100%;
 	height: auto;
 }
 
-.article-bottom-link:link{
+/* Article-footer */
+
+#article-footer {
+	width: 100%;
+}
+
+.article-bottom-link:link {
 	color: #848484;
 }
 
-#article-footer{
-	width:100%;
-}
-
-#article-footer-container{
+#article-footer-container {
 	width: 100%;
 	margin-top: 20px;
 }
 
-#article-footer-container button{
-	float:left;
+#article-footer-container button {
+	float: left;
 	width: 50%;
 	height: 36px;
 	background-color: #567b95;
@@ -268,73 +300,68 @@ article p{
 	font-weight: bold;
 }
 
-#article-footer-container ul{
-	float:right;
+#article-footer-container ul {
+	float: right;
 }
 
-#article-footer-container a:link{
-	color:#000;
+#article-footer-container a:link {
+	color: #000;
 }
+
 /* Related-content-Section */
 
-#related-left{
-	
-}
+/* Related-container */
 
-.related-content{
+/* Related-left */
+
+.related-content {
 	float: left;
 	width: 273px;
 	height: 292px;
-	
 }
 
-.related-margin-right{
+.related-margin-right {
 	margin-right: 27px;
 }
 
-.related-content img{
+.related-content img {
 	width: 273px;
 	height: auto;
 }
 
-.caption-text-format{
+.caption-text-format {
 	font-size: 10px;
 	color: #808080;
 }
-.related-content figcaption{
+.related-content figcaption {
 	text-align: right;
 }
-.display-block{
-	display:block;
-}
 
-#related-news{
+#related-news {
 	width: 90%;
 	margin-top: 115px;
 	margin-right: auto;
 	margin-left: auto;
-	
 }
 
-#related-container{
+#related-container {
 	border-top-style: solid;
 	border-width: thin;
 	padding-top: 5px;
 	float: left;
 	width: 72%;
-	
 }
+/* related right */
 
-#related-right{
+#related-right {
 	border-top-style: solid;
 	border-width: thin;
 	padding-top: 5px;
 	float: right;
 	width: 24%;
-	
 }
 
-#related-right span{
+#related-right span {
 	display: block;
 	border-top-style: solid;
 	border-top-width: thin;
@@ -344,10 +371,9 @@ article p{
 	font-weight: 550;
 }
 
-
-
 /* Footer */
-footer{
+
+footer {
 	display: block;
 	clear: both;
 }
