@@ -477,6 +477,7 @@ footer::before{
 	display: block;
 	width: 90%;
 	margin-left: 5%;
+	margin-bottom: 5%;
 	clear:both;
 }
 .ul-footer-list ul{
