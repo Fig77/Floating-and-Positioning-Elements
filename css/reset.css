@@ -355,3 +355,8 @@ figure{
 iframe{
 	border: 0px;
 }
+
+a:link {
+	text-decoration: none;
+	color: #000;
+}

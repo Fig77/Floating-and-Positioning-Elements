@@ -309,8 +309,25 @@ article p {
 }
 
 /* Related-content-Section */
+.span-related-text{
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.span-related-text:hover {
+	cursor: pointer;
+	color: #666;
+}
 
 /* Related-container */
+#related-container img:hover {
+	cursor: pointer;
+}
+
+#related-container a:hover{
+	text-decoration: underline;
+	color: #666;
+}
 
 /* Related-left */
 
@@ -370,6 +387,14 @@ article p {
 	font-size: 18px;
 	font-weight: 550;
 }
+
+#editors-pick{
+	clear: both;
+	border-top-style: solid;
+	border-width: thin;
+	padding-top: 3px;
+}
+
 
 /* Footer */
 
