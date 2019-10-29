@@ -97,14 +97,12 @@
   color: #000;
 }
 
-
 /* Main */
 
 main {
   padding-top: 35px;
   padding-left: 50px;
 }
-
 
 /* Main-Header */
 
@@ -139,7 +137,6 @@ main {
   color: #a6a6a6;
 }
 
-
 /* ARTICLE */
 
 article {
@@ -152,7 +149,6 @@ article p {
   font-size: 25px;
   color: #323232;
 }
-
 
 /* Article-Header */
 
@@ -193,7 +189,6 @@ article p {
   color: black;
 }
 
-
 /* Article-header log-in div */
 
 #log-in-div {
@@ -229,14 +224,12 @@ article p {
   color: #0077c5;
 }
 
-
 /* class for the links in the article */
 
 .article-link:link {
   color: #0077c5;
   text-decoration: underline;
 }
-
 
 /* Inflation theory section */
 
@@ -303,9 +296,7 @@ article p {
   color: #323232;
 }
 
-
 /* end of theory of inflation div */
-
 
 /* Media in article */
 
@@ -317,7 +308,6 @@ article p {
   width: 100%;
   height: auto;
 }
-
 
 /* Article-footer */
 
@@ -364,7 +354,6 @@ article p {
   color: #000;
 }
 
-
 /* Related-content-Section */
 
 .span-related-text {
@@ -377,7 +366,6 @@ article p {
   color: #666;
 }
 
-
 /* Related-container */
 
 #related-container img:hover {
@@ -388,7 +376,6 @@ article p {
   text-decoration: underline;
   color: #666;
 }
-
 
 /* Related-left */
 
@@ -431,7 +418,6 @@ article p {
   width: 72%;
 }
 
-
 /* related right */
 
 #related-right {
@@ -458,7 +444,6 @@ article p {
   border-width: thin;
   padding-top: 3px;
 }
-
 
 /* Footer */
 
