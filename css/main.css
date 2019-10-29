@@ -443,8 +443,7 @@ footer {
 
 footer::before {
 	border-bottom: 1px solid rgb(226, 226, 226);
-	border-top: 2px solid
-	rgb(226, 226, 226);
+	border-top: 2px solid rgb(226, 226, 226);
 	content: "";
 	display: block;
 	height: 1px;
