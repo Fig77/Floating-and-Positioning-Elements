@@ -1,547 +1,545 @@
-	/* general classes */
-	.border-thin-gray {
-		border-style: solid;
-		border-color: #d3d3d3;
-		border-width: thin;
-	}
-
-	.c-t-align-right {
-		text-align: right;
-	}
-
-	.display-block {
-		display: block;
-	}
-
-	#cheesit {
-		padding-left: 8px;
-	}
-
-	/* Header */
-	#nav-id {
-		position: fixed;
-		border-right-style: none;
-		border-left-style: none;
-		height: 36px;
-		width: 100vw;
-		padding-bottom: 5px;
-		background-color: #fff;
-		z-index: 2;
-	}
-
-	.ul-nav-bar {
-		list-style-type: none;
-		position: relative;
-		bottom: 5px;
-	}
-
-	.ul-nav-bar li {
-		float: left;
-		padding-right: 25px;
-	}
-
-	#ul-left {
-		float: left;
-		padding-left: 15px;
-	}
-
-	#text-left {
-		font-weight: bold;
-		font-size: 15px;
-	}
-
-	#text-left:hover {
-		text-decoration: underline;
-	}
-
-	#logo {
-		position: relative;
-		left: 320px;
-		top: 3px;
-	}
-
-	#ul-right {
-		float: right;
-	}
-
-	#ul-right li {
-		float: right;
-	}
-
-	#button-nav {
-		position: relative;
-		height: 33px;
-		bottom: 7px;
-		right: 3px;
-		background-color: #323232;
-		color: #fff;
-		border-style: solid;
-		border-width: thin;
-		border-radius: 4px;
-		font-size: 15px;
-		padding-left: 12px;
-		padding-right: 12px;
-		padding-top: 5px;
-	}
-
-	#button-nav:hover {
-		background-color: #000;
-	}
-
-	#link-nav:link {
-		color: #323232;
-		text-decoration: underline;
-	}
-
-	#link-nav:hover {
-		color: #000;
-	}
-
-	/* Main */
-	main {
-		padding-top: 35px;
-		padding-left: 50px;
-	}
-
-	/* Main-Header */
-	#main-header {
-		padding-right: 25px;
-	}
-
-	#main-header-title {
-		width: 35%;
-		font-size: 40px;
-		margin-left: 27%;
-		color: #191919;
-		font-style: italic;
-		font-weight: bold;
-	}
-
-	#main-header-image {
-		width: 70%;
-		height: auto;
-		margin-left: 15%;
-	}
-
-	#main-header-description {
-		width: 57%;
-		margin-left: 15%;
-		margin-top: 1%;
-		color: #808080;
-		font-size: 16px;
-	}
-
-	#main-header-description span {
-		color: #a6a6a6;
-	}
-
-	/* ARTICLE */
-	article {
-		width: 45%;
-		margin-left: 25%;
-		margin-top: 35px;
-	}
-
-	article p {
-		font-size: 25px;
-		color: #323232;
-	}
-
-	/* Article-Header */
-	#article-header {
-		padding-right: 25px;
-	}
-
-	#article-author {
-		color: black;
-		font-weight: bolder;
-		width: 100%;
-		font-size: 15px;
-	}
-
-	#article-author a {
-		text-decoration: underline;
-		text-decoration-color: #a3a3a3;
-	}
-
-	#article-author a:hover {
-		text-decoration: none;
-	}
-
-	#date-links-container {
-		width: 100%;
-	}
-
-	#article-date {
-		float: left;
-	}
-
-	#article-social-links {
-		float: right;
-		margin: 0;
-	}
-
-	#article-social-links a:link {
-		color: black;
-	}
-
-	/* Article-header log-in div */
-	#log-in-div {
-		clear: both;
-		border-style: solid;
-		border-width: thin;
-		width: 75%;
-		padding: 14px;
-		margin-top: 65px;
-	}
-
-	#log-in-div:hover {
-		cursor: pointer;
-	}
-
-	#log-in-div span {
-		display: block;
-	}
-
-	#span-login-one {
-		font-size: 18px;
-		color: #1b1b1b;
-		font-weight: bold;
-	}
-
-	#span-login-two {
-		font-size: 17px;
-		color: #373737;
-	}
-
-	#span-login-two a:link {
-		font-size: 14px;
-		color: #0077c5;
-	}
-
-	/* class for the links in the article */
-	.article-link:link {
-		color: #0077c5;
-		text-decoration: underline;
-	}
-
-	/* Inflation theory section */
-	#inflation-theory-info {
-		position: relative;
-		right: 25%;
-		width: 945px;
-	}
-
-	#inflation-title {
-		margin-bottom: 5px;
-		font-size: 20px;
-	}
-
-	#inflation-description {
-		margin-top: 5px;
-		font-size: 15px;
-		color: #808080;
-		font-weight: lighter;
-	}
-
-	#inf-img {
-		width: 945px;
-		height: auto;
-	}
-
-	#spans-inflation-container {
-		position: absolute;
-		top: 150px;
-	}
-
-	.span-inflation {
-		display: inline-block;
-		width: 220px;
-		font-size: 14px;
-		float: left;
-		font-weight: lighter;
-		margin-bottom: 50px;
-		margin-top: 100px;
-		word-spacing: 2px;
-		line-height: 17px;
-		font-weight: 300;
-	}
-
-	.span-inflation-margin {
-		margin-right: 20px;
-	}
-
-	.span-inflation strong {
-		font-weight: bold;
-	}
-
-	.separation-line {
-		color: #666666;
-		width: 5%;
-		float: left;
-		margin-top: 50px;
-		display: block;
-	}
-
-	#span-caption-inflation {
-		display: inline-block;
-		margin-top: 65px;
-		font-size: 14px;
-		word-spacing: 2px;
-		color: #323232;
-	}
-
-	/* end of theory of inflation div */
-
-	/* Media in article */
-
-	#emb-video {
-		width: 100%;
-	}
-
-	#image-jumbo {
-		width: 100%;
-		height: auto;
-	}
-
-	/* Article-footer */
-	#article-footer {
-		width: 100%;
-	}
-
-	#button-footer:hover {
-		cursor: pointer;
-		background-color: #446277;
-	}
-
-	.article-bottom-link:link {
-		color: #848484;
-		text-decoration: underline;
-	}
-
-	.article-bottom-link:hover {
-		text-decoration: none;
-	}
-
-	#article-footer-container {
-		width: 100%;
-		margin-top: 20px;
-	}
-
-	#article-footer-container button {
-		float: left;
-		width: 50%;
-		height: 36px;
-		background-color: #567b95;
-		border: 1px solid #326891;
-		border-radius: 3px;
-		color: #fff;
-		font-size: 12px;
-		font-weight: bold;
-	}
-
-	#article-footer-container ul {
-		float: right;
-	}
-
-	#article-footer-container a:link {
-		color: #000;
-	}
-
-	/* Related-content-Section */
-	.span-related-text {
-		padding-top: 2px;
-		padding-bottom: 2px;
-	}
-
-	.span-related-text:hover {
-		cursor: pointer;
-		color: #666;
-	}
-
-	/* Related-container */
-	#related-container img:hover {
-		cursor: pointer;
-	}
-
-	#related-container a:hover {
-		text-decoration: underline;
-		color: #666;
-	}
-
-	/* Related-left */
-	.related-content {
-		float: left;
-		width: 273px;
-		height: 292px;
-	}
-
-	.related-margin-right {
-		margin-right: 27px;
-	}
-
-	.related-content img {
-		width: 273px;
-		height: auto;
-	}
-
-	.caption-text-format {
-		font-size: 10px;
-		color: #808080;
-	}
-
-	.related-content figcaption {
-		text-align: right;
-	}
-
-	#related-news {
-		width: 90%;
-		margin-top: 115px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-
-	#related-container {
-		border-top-style: solid;
-		border-width: thin;
-		padding-top: 5px;
-		float: left;
-		width: 72%;
-	}
-
-	/* related right */
-	#related-right {
-		border-top-style: solid;
-		border-width: thin;
-		padding-top: 5px;
-		float: right;
-		width: 24%;
-	}
-
-	#related-right span {
-		display: block;
-		border-top-style: solid;
-		border-top-width: thin;
-		padding-top: 15px;
-		margin-top: 15px;
-		font-size: 18px;
-		font-weight: 550;
-	}
-
-	#editors-pick {
-		clear: both;
-		border-top-style: solid;
-		border-width: thin;
-		padding-top: 3px;
-	}
-
-	/* Footer */
-	footer {
-		display: block;
-		clear: both;
-		width: 90%;
-		margin-left: 5%;
-	}
-
-	footer::before {
-		border-bottom: 1px solid rgb(226, 226, 226);
-		border-top: 2px solid
-		rgb(226, 226, 226);
-		content: "";
-		display: block;
-		height: 1px;
-		margin-top: 0;
-	}
-
-	#footer_header {
-		width: 100%;
-		padding-top: 15px;
-	}
-
-	#footer_header a {
-		float: right;
-		color: #3292D0;
-	}
-
-	.ul-footer {
-		list-style-type: none;
-		float: left;
-		margin-left: 60px;
-	}
-
-	#footer_first_list {
-		padding-left: 0;
-		margin-left: 0;
-	}
-
-	.ul-footer li {
-		padding-bottom: 5px;
-	}
-
-	.ul-footer li a:hover {
-		text-decoration: underline;
-		cursor: pointer;
-	}
-
-	.ul-title {
-		margin-bottom: 8px;
-	}
-
-	.footer-icon-list {
-		font-size: 16px;
-		font-weight: bold;
-		margin-bottom: 8px;
-	}
-
-	.footer-icon-list a {
-		padding-left: 5px;
-	}
-
-	#footer-li-border-bottom {
-		border-bottom-style: solid;
-		border-bottom-width: thin;
-		border-bottom-color: #a3a3a3;
-		padding-bottom: 6px;
-	}
-
-	#footer-li-padding-top {
-		padding-top: 6px;
-	}
-
-	.ul-smaller {
-		font-size: 13px;
-		margin-bottom: 3px;
-	}
-
-	#ul-footer-container {
-		display: block;
-	}
-
-	.ul-footer-list {
-		display: block;
-		width: 90%;
-		margin-left: 5%;
-		margin-bottom: 5%;
-		clear: both;
-	}
-
-	.ul-footer-list ul {
-		list-style-type: none;
-		position: relative;
-	}
-
-	.ul-footer-list ul li {
-		float: left;
-		font-size: 12px;
-		padding-right: 10px;
-		color: #a3a3a3;
-	}
-
-	.ul-footer-list ul li a {
-		color: #828282;
-	}
-
-	.ul-footer-list ul li a:hover {
-		text-decoration: underline;
-		cursor: pointer;
-	}
+/* general classes */
+.border-thin-gray {
+	border-style: solid;
+	border-color: #d3d3d3;
+	border-width: thin;
+}
+
+.c-t-align-right {
+	text-align: right;
+}
+
+.display-block {
+	display: block;
+}
+
+#cheesit {
+	padding-left: 8px;
+}
+
+/* Header */
+#nav-id {
+	position: fixed;
+	border-right-style: none;
+	border-left-style: none;
+	height: 36px;
+	width: 100vw;
+	padding-bottom: 5px;
+	background-color: #fff;
+	z-index: 2;
+}
+
+.ul-nav-bar {
+	list-style-type: none;
+	position: relative;
+	bottom: 5px;
+}
+
+.ul-nav-bar li {
+	float: left;
+	padding-right: 25px;
+}
+
+#ul-left {
+	float: left;
+	padding-left: 15px;
+}
+
+#text-left {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#text-left:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	position: relative;
+	left: 320px;
+	top: 3px;
+}
+
+#ul-right {
+	float: right;
+}
+
+#ul-right li {
+	float: right;
+}
+
+#button-nav {
+	position: relative;
+	height: 33px;
+	bottom: 7px;
+	right: 3px;
+	background-color: #323232;
+	color: #fff;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 4px;
+	font-size: 15px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 5px;
+}
+
+#button-nav:hover {
+	background-color: #000;
+}
+
+#link-nav:link {
+	color: #323232;
+	text-decoration: underline;
+}
+
+#link-nav:hover {
+	color: #000;
+}
+
+/* Main */
+main {
+	padding-top: 35px;
+	padding-left: 50px;
+}
+
+/* Main-Header */
+#main-header {
+	padding-right: 25px;
+}
+
+#main-header-title {
+	width: 35%;
+	font-size: 40px;
+	margin-left: 27%;
+	color: #191919;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#main-header-image {
+	width: 70%;
+	height: auto;
+	margin-left: 15%;
+}
+
+#main-header-description {
+	width: 57%;
+	margin-left: 15%;
+	margin-top: 1%;
+	color: #808080;
+	font-size: 16px;
+}
+
+#main-header-description span {
+	color: #a6a6a6;
+}
+
+/* ARTICLE */
+article {
+	width: 45%;
+	margin-left: 25%;
+	margin-top: 35px;
+}
+
+article p {
+	font-size: 25px;
+	color: #323232;
+}
+
+/* Article-Header */
+#article-header {
+	padding-right: 25px;
+}
+
+#article-author {
+	color: black;
+	font-weight: bolder;
+	width: 100%;
+	font-size: 15px;
+}
+
+#article-author a {
+	text-decoration: underline;
+	text-decoration-color: #a3a3a3;
+}
+
+#article-author a:hover {
+	text-decoration: none;
+}
+
+#date-links-container {
+	width: 100%;
+}
+
+#article-date {
+	float: left;
+}
+
+#article-social-links {
+	float: right;
+	margin: 0;
+}
+
+#article-social-links a:link {
+	color: black;
+}
+
+/* Article-header log-in div */
+#log-in-div {
+	clear: both;
+	border-style: solid;
+	border-width: thin;
+	width: 75%;
+	padding: 14px;
+	margin-top: 65px;
+}
+
+#log-in-div:hover {
+	cursor: pointer;
+}
+
+#log-in-div span {
+	display: block;
+}
+
+#span-login-one {
+	font-size: 18px;
+	color: #1b1b1b;
+	font-weight: bold;
+}
+
+#span-login-two {
+	font-size: 17px;
+	color: #373737;
+}
+
+#span-login-two a:link {
+	font-size: 14px;
+	color: #0077c5;
+}
+
+/* class for the links in the article */
+.article-link:link {
+	color: #0077c5;
+	text-decoration: underline;
+}
+
+/* Inflation theory section */
+#inflation-theory-info {
+	position: relative;
+	right: 25%;
+	width: 945px;
+}
+
+#inflation-title {
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+#inflation-description {
+	margin-top: 5px;
+	font-size: 15px;
+	color: #808080;
+	font-weight: lighter;
+}
+
+#inf-img {
+	width: 945px;
+	height: auto;
+}
+
+#spans-inflation-container {
+	position: absolute;
+	top: 150px;
+}
+
+.span-inflation {
+	width: 220px;
+	font-size: 14px;
+	float: left;
+	margin-bottom: 50px;
+	margin-top: 100px;
+	word-spacing: 2px;
+	line-height: 17px;
+	font-weight: 300;
+}
+
+.span-inflation-margin {
+	margin-right: 20px;
+}
+
+.span-inflation strong {
+	font-weight: bold;
+}
+
+.separation-line {
+	color: #666666;
+	width: 5%;
+	float: left;
+	margin-top: 50px;
+	display: block;
+}
+
+#span-caption-inflation {
+	display: inline-block;
+	margin-top: 65px;
+	font-size: 14px;
+	word-spacing: 2px;
+	color: #323232;
+}
+
+/* end of theory of inflation div */
+
+/* Media in article */
+
+#emb-video {
+	width: 100%;
+}
+
+#image-jumbo {
+	width: 100%;
+	height: auto;
+}
+
+/* Article-footer */
+#article-footer {
+	width: 100%;
+}
+
+#button-footer:hover {
+	cursor: pointer;
+	background-color: #446277;
+}
+
+.article-bottom-link:link {
+	color: #848484;
+	text-decoration: underline;
+}
+
+.article-bottom-link:hover {
+	text-decoration: none;
+}
+
+#article-footer-container {
+	width: 100%;
+	margin-top: 20px;
+}
+
+#article-footer-container button {
+	float: left;
+	width: 50%;
+	height: 36px;
+	background-color: #567b95;
+	border: 1px solid #326891;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#article-footer-container ul {
+	float: right;
+}
+
+#article-footer-container a:link {
+	color: #000;
+}
+
+/* Related-content-Section */
+.span-related-text {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.span-related-text:hover {
+	cursor: pointer;
+	color: #666;
+}
+
+/* Related-container */
+#related-container img:hover {
+	cursor: pointer;
+}
+
+#related-container a:hover {
+	text-decoration: underline;
+	color: #666;
+}
+
+/* Related-left */
+.related-content {
+	float: left;
+	width: 273px;
+	height: 292px;
+}
+
+.related-margin-right {
+	margin-right: 27px;
+}
+
+.related-content img {
+	width: 273px;
+	height: auto;
+}
+
+.caption-text-format {
+	font-size: 10px;
+	color: #808080;
+}
+
+.related-content figcaption {
+	text-align: right;
+}
+
+#related-news {
+	width: 90%;
+	margin-top: 115px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#related-container {
+	border-top-style: solid;
+	border-width: thin;
+	padding-top: 5px;
+	float: left;
+	width: 72%;
+}
+
+/* related right */
+#related-right {
+	border-top-style: solid;
+	border-width: thin;
+	padding-top: 5px;
+	float: right;
+	width: 24%;
+}
+
+#related-right span {
+	display: block;
+	border-top-style: solid;
+	border-top-width: thin;
+	padding-top: 15px;
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+#editors-pick {
+	clear: both;
+	border-top-style: solid;
+	border-width: thin;
+	padding-top: 3px;
+}
+
+/* Footer */
+footer {
+	display: block;
+	clear: both;
+	width: 90%;
+	margin-left: 5%;
+}
+
+footer::before {
+	border-bottom: 1px solid rgb(226, 226, 226);
+	border-top: 2px solid
+	rgb(226, 226, 226);
+	content: "";
+	display: block;
+	height: 1px;
+	margin-top: 0;
+}
+
+#footer_header {
+	width: 100%;
+	padding-top: 15px;
+}
+
+#footer_header a {
+	float: right;
+	color: #3292D0;
+}
+
+.ul-footer {
+	list-style-type: none;
+	float: left;
+	margin-left: 60px;
+}
+
+#footer_first_list {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.ul-footer li {
+	padding-bottom: 5px;
+}
+
+.ul-footer li a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.ul-title {
+	margin-bottom: 8px;
+}
+
+.footer-icon-list {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.footer-icon-list a {
+	padding-left: 5px;
+}
+
+#footer-li-border-bottom {
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #a3a3a3;
+	padding-bottom: 6px;
+}
+
+#footer-li-padding-top {
+	padding-top: 6px;
+}
+
+.ul-smaller {
+	font-size: 13px;
+	margin-bottom: 3px;
+}
+
+#ul-footer-container {
+	display: block;
+}
+
+.ul-footer-list {
+	display: block;
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	clear: both;
+}
+
+.ul-footer-list ul {
+	list-style-type: none;
+	position: relative;
+}
+
+.ul-footer-list ul li {
+	float: left;
+	font-size: 12px;
+	padding-right: 10px;
+	color: #a3a3a3;
+}
+
+.ul-footer-list ul li a {
+	color: #828282;
+}
+
+.ul-footer-list ul li a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
