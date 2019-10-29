@@ -1,3 +1,5 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Issues][issues-shield]][issues-url]
 <br />
 <p align="center">
  
@@ -17,7 +19,7 @@
   </p>
 </p>
 <!-- TABLE OF CONTENTS -->
-### Table of Contents
+## Table of Contents
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
@@ -30,7 +32,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-### About The Project
+## About The Project
 This is our third Microverse Project.
 
 ### Objective
