@@ -4,9 +4,3 @@ linters:
 ​
 fixers:
     enable: true
-​
-branches:
-    # Ignore pull requests to the named branches
-    ignore:
-        - 'master'        
-​
