@@ -17,10 +17,7 @@
 #cheesit {
   padding-left: 8px;
 }
-
-
 /* Header */
-
 #nav-id {
   position: fixed;
   border-right-style: none;
@@ -291,7 +288,7 @@ article p {
 }
 
 .separation-line {
-  color: #666666;
+  color: #666;
   width: 5%;
   float: left;
   margin-top: 50px;
