@@ -444,8 +444,7 @@ footer {
 }
 
 footer::before {
-	border-bottom: 1px solid
-	rgb(226, 226, 226);
+	border-bottom: 1px solid rgb(226, 226, 226);
 	border-top: 2px solid
 	rgb(226, 226, 226);
 	content: "";
@@ -461,8 +460,7 @@ footer::before {
 
 #footer_header a {
 	float: right;
-	color: #3292D0;
-}
+	color: #3292D0;}
 
 .ul-footer {
 	list-style-type: none;
