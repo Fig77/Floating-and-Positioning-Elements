@@ -438,6 +438,10 @@ footer::before{
 .ul-footer li {
 	padding-bottom: 5px;
 }
+.ul-footer li a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
 
 .ul-title {
 	margin-bottom: 8px;
@@ -446,18 +450,18 @@ footer::before{
 .footer-icon-list{
 	font-size: 16px;
 	font-weight: bold;
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 }
 
 #footer-li-border-bottom {
 	border-bottom-style: solid;
 	border-bottom-width: thin;
 	border-bottom-color: #a3a3a3;
-	padding-bottom: 10px;
+	padding-bottom: 6px;
 }
 
 #footer-li-padding-top {
-	padding-top: 10px;
+	padding-top: 6px;
 }
 
 .ul-smaller{
@@ -471,6 +475,24 @@ footer::before{
 
 .ul-footer-list{
 	display: block;
+	width: 90%;
+	margin-left: 5%;
 	clear:both;
 }
-
+.ul-footer-list ul{
+	list-style-type: none;
+	position: relative;
+}
+.ul-footer-list ul li{
+	float: left;
+	font-size: 12px;
+	padding-right: 10px;
+	color: #a3a3a3;
+}
+.ul-footer-list ul li a{
+	color: #828282;
+}
+.ul-footer-list ul li a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
