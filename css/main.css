@@ -21,6 +21,11 @@
   padding-bottom: 5px;
 }
 
+.ul-nav-bar li {
+  float: left;
+  padding-right: 25px;
+}
+
 .ul-footer-list ul li {
   float: left;
   font-size: 12px;
@@ -50,7 +55,9 @@
 #cheesit {
   padding-left: 8px;
 }
+
 /* Header */
+
 #nav-id {
   position: fixed;
   border-right-style: none;
@@ -68,10 +75,7 @@
   bottom: 5px;
 }
 
-.ul-nav-bar li {
-  float: left;
-  padding-right: 25px;
-}
+
 
 #ul-left {
   float: left;
@@ -384,6 +388,10 @@ article p {
 
 /* Related-container */
 
+.related-margin-right {
+  margin-right: 27px;
+}
+
 #related-container img:hover {
   cursor: pointer;
 }
@@ -394,10 +402,6 @@ article p {
   float: left;
   width: 273px;
   height: 292px;
-}
-
-.related-margin-right {
-  margin-right: 27px;
 }
 
 .related-content img {
