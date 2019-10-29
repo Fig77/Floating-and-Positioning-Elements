@@ -1,5 +1,10 @@
 /* general classes */
 
+.ul-footer-list ul li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .border-thin-gray {
   border-style: solid;
   border-color: #d3d3d3;
@@ -547,11 +552,6 @@ footer::before {
 }
 
 .ul-footer li a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.ul-footer-list ul li a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
