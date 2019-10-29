@@ -14,6 +14,10 @@
 	display: block;
 }
 
+#cheesit{
+	padding-left: 8px;
+}
+
 /* Header */
 #nav-id {
 	position: fixed;
@@ -46,6 +50,9 @@
 	font-weight: bold;
 	font-size: 15px;
 }
+#text-left:hover{
+	text-decoration: underline;
+}
 
 #logo {
 	position: relative;
@@ -77,9 +84,19 @@
 	padding-top: 5px;
 }
 
+#button-nav:hover{
+	background-color: #000;
+}
+
 #link-nav:link {
 	color: #323232;
+	text-decoration: underline;
 }
+#link-nav:hover{
+	color: #000;
+}
+
+
 
 /* Main */
 
@@ -145,6 +162,15 @@ article p {
 	font-weight: bolder;
 	width: 100%;
 	font-size: 15px;
+	
+}
+#article-author a{
+	text-decoration: underline;
+	text-decoration-color: #a3a3a3;
+}
+
+#article-author a:hover{
+	text-decoration: none;
 }
 
 #date-links-container {
@@ -173,6 +199,10 @@ article p {
 	width: 75%;
 	padding: 14px;
 	margin-top: 65px;
+}
+
+#log-in-div:hover{
+	cursor: pointer;
 }
 
 #log-in-div span {
@@ -279,8 +309,19 @@ article p {
 	width: 100%;
 }
 
+#button-footer:hover{
+	cursor: pointer;
+	background-color: #446277;
+	
+}
+
 .article-bottom-link:link {
 	color: #848484;
+	text-decoration: underline;
+}
+
+.article-bottom-link:hover{
+	text-decoration: none;
 }
 
 #article-footer-container {
@@ -416,6 +457,7 @@ footer::before{
 	margin-top: 0px;
 }
 
+
 #footer_header{
 	width: 100%;
 	padding-top: 15px;
@@ -451,6 +493,9 @@ footer::before{
 	font-size: 16px;
 	font-weight: bold;
 	margin-bottom: 8px;
+}
+.footer-icon-list a{
+	padding-left: 5px;
 }
 
 #footer-li-border-bottom {

@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 
 <html lang="en">
-	<head>
-		<title>Positioning - and FLoating - Elements</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-		<script src="js/jquery.js"></script>
-		<script src="js/all.js"></script>
-		
-	</head>
-	
-	<body>
-		<header id="header">
-			<nav id="nav-id" class="border-thin-gray">
-				<ul class="ul-nav-bar" id="ul-left">
-					<li><i class="fas fa-bars"></i></li>
-					<li><i class="fas fa-search"></i></li>
-					<li><span id="text-left">SPACE & COSMOS</span></li>
-				</ul>
-				
-				<img id="logo" src="img/new_york_logo.png" alt="new_york_logo">
-				
-				<ul class="ul-nav-bar" id="ul-right">
-					<li><button id="button-nav">Log in</button></li>
-					<li><a id="link-nav" href="#">Suscribe for full access</a></li>
-				</ul>
-				
-			</nav>
-		</header>
-	
+
+<head>
+	<title>Positioning - and FLoating - Elements</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<script src="js/jquery.js"></script>
+	<script src="js/all.js"></script>
+
+</head>
+
+<body>
+	<header id="header">
+		<nav id="nav-id" class="border-thin-gray">
+			<ul class="ul-nav-bar" id="ul-left">
+				<li><a href="#"><i class="fas fa-bars"></i></a></li>
+				<li><a href="#"><i class="fas fa-search"></i></a></li>
+				<li><span id="text-left"><a href="#">SPACE & COSMOS</a></span></li>
+			</ul>
+			<a href="#"><img id="logo" src="img/new_york_logo.png" alt="new_york_logo"></a>
+			<ul class="ul-nav-bar" id="ul-right">
+				<li><button id="button-nav">Log in</button></li>
+				<li><a id="link-nav" href="#">Suscribe for full access</a></li>
+			</ul>
+
+		</nav>
+	</header>
+
 	<main>
 		<section id="main-header">
 			<h2 id="main-header-title">
@@ -40,12 +39,12 @@
 			</h2>
 			<img id="main-header-image" src="img/main-header-img.jpg" alt="main-header-image">
 			<p id="main-header-description">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.<br><span>Rick Friedman for The New York Times</span></p>
-			
+
 		</section>
 
 		<article id="main-article">
 			<div id="article-header">
-				<span id="article-author"><STRONG>By Dennis Overbye</STRONG></span>
+				<span id="article-author"><STRONG>By <a href="#">Dennis Overbye</a></STRONG></span>
 				<br>
 				<br>
 				<div id="date-links-container">
@@ -88,7 +87,7 @@
 					<span id="span-login-two"><a href="#">Log in</a> or <a href="#">create a free account</a> to read more articles each month.</span>
 				</div>
 			</div>
-			
+
 			<p>
 				CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new son and a year’s appointment at Stanford, stayed up late with his notebook and equations, venturing far beyond the world of known physics.
 				<br>
@@ -129,7 +128,7 @@
 				<br>
 				Dr. Kovac and his collaborators, working in an experiment known as Bicep, for Background Imaging of Cosmic Extragalactic Polarization, reported their results in a scientific briefing at the Center for Astrophysics here on Monday and in a set of papers submitted to The Astrophysical Journal.
 			</p>
-			
+
 			<div id="inflation-theory-info">
 				<h3 id="inflation-title"><strong>The Theory of Inflation</strong></h3>
 				<h6 id="inflation-description">Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.
@@ -137,33 +136,33 @@
 				<img id="inf-img" src="img/inflation.png" alt="inflation theory img">
 				<div id="spans-inflation-container">
 					<span class="span-inflation span-inflation-margin">
-						<strong>THE UNIVERSE</strong>  is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.
+						<strong>THE UNIVERSE</strong> is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.
 					</span>
 					<span class="span-inflation span-inflation-margin">
-						<strong>NOT ENOUGH TIME</strong>  The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, and there has not been enough time for scattered patches of hot and cold to mix into an even temperature.
+						<strong>NOT ENOUGH TIME</strong> The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, and there has not been enough time for scattered patches of hot and cold to mix into an even temperature.
 					</span>
 					<span class="span-inflation span-inflation-margin">
-						<strong>DISTANT COFFEE</strong>  At a smaller scale, imagine using a telescope to look a mile in one direction. You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled.
+						<strong>DISTANT COFFEE</strong> At a smaller scale, imagine using a telescope to look a mile in one direction. You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled.
 					</span>
 					<span class="span-inflation">
-						<strong>COFFEE EVERYWHERE</strong>  Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in every direction, you might want to look for another explanation.
+						<strong>COFFEE EVERYWHERE</strong> Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in every direction, you might want to look for another explanation.
 					</span>
 					<span class="span-inflation span-inflation-margin">
-						<strong>STILL NOT ENOUGH TIME</strong>  There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature.
+						<strong>STILL NOT ENOUGH TIME</strong> There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature.
 					</span>
 					<span class="span-inflation span-inflation-margin">
-						<strong>INFLATION</strong>  solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.
+						<strong>INFLATION</strong> solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.
 					</span>
 					<span class="span-inflation span-inflation-margin">
-						<strong>FLUCTUATION</strong>  Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. These are gravitational waves predicted by Einstein.
+						<strong>FLUCTUATION</strong> Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. These are gravitational waves predicted by Einstein.
 					</span>
 					<span class="span-inflation">
-						<strong>EXPANSION</strong>  Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot.
+						<strong>EXPANSION</strong> Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot.
 					</span>
 				</div>
 				<hr class="separation-line">
 				<span id="span-caption-inflation">By LARRY BUCHANAN and JONATHAN CORUM</span>
-				
+
 			</div>
 			<p>
 				Dr. Kovac said the chance that the results were a fluke was only one in 10 million.
@@ -182,9 +181,9 @@
 				Andrei Linde of Stanford, a prolific theorist who first described the most popular variant of inflation, known as chaotic inflation, in 1983, was about to go on vacation in the Caribbean last week when Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team, knocked on his door with a bottle of Champagne to tell him the news.
 			</p>
 			<br>
-				<iframe id="emb-video" height="315" src="https://www.youtube.com/embed/ZlfIVEy_YOA"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe id="emb-video" height="315" src="https://www.youtube.com/embed/ZlfIVEy_YOA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			<span>
-				Stanford Professor Andrei Linde celebrates physics breakthrough 
+				Stanford Professor Andrei Linde celebrates physics breakthrough
 				<br>
 				<small>Video by StanfordUniversity</small>
 			</span>
@@ -225,7 +224,7 @@
 				<br>
 				<br>
 				“The South Pole is the closest you can get to space and still be on the ground,” Dr. Kovac said. He has been there 23 times, he said, wintering over in 1994. “I’ve been hooked ever since,” he said.
-			</p>	
+			</p>
 			<img id="image-jumbo" src="img/spirals-jumbo.jpg" alt="spirals-jumbo">
 			<span>
 				The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.
@@ -285,10 +284,10 @@
 			</p>
 			<div id="article-footer">
 				<small>
-					A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a href="_blank" title="link" class="article-bottom-link">Order Reprints</a>| <a href="_blank" title="link" class="article-bottom-link">Today’s Paper</a> | <a href="_blank" title="link" class="article-bottom-link">Subscribe</a>
+					A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a href="_blank" title="link" class="article-bottom-link">Order Reprints</a> | <a href="_blank" title="link" class="article-bottom-link">Today’s Paper</a> | <a href="_blank" title="link" class="article-bottom-link">Subscribe</a>
 				</small>
 				<div id="article-footer-container">
-					<button>READ 615 COMMENTS</button>
+					<button id="button-footer">READ 615 COMMENTS</button>
 					<ul class="ul-nav-bar">
 						<li>
 							<a href="_blank" title="social-button">
@@ -314,233 +313,233 @@
 				</div>
 			</div>
 
-				
+
 		</article>
 	</main>
-		
-		<section id="related-news">
-			
-			<div id="related-container">
-				<h3><strong><a href="#">More in Space & Cosmos</a></strong></h3>
-				<div id="related-left">
-					<div class="related-content related-margin-right">
-						<figure>
-							<img src="img/related_1.jpg" alt="related-1">
-							<figcaption class="caption-text-format c-t-align-right">Tom Brenner for New York Times</figcaption>
-						</figure>
-						<span class="display-block span-related-text"><strong>Jeff Bezos’ Blue Origin to Partner With 3 Companies on NASA Moon Lander</strong></span>
-						<span class="display-block caption-text-format">Oct. 22</span>
-					</div>
-					<div class="related-content related-margin-right">
-						<figure>
-							<img src="img/related_2.jpg" alt="related-2">
-							<figcaption class="caption-text-format c-t-align-right">NASA, via Associated Press</figcaption>
-						</figure>
-						<span class="display-block span-related-text"><strong>Why NASA’s First All-Women Spacewalk Made History</strong></span>
-						<span class="display-block caption-text-format">Oct. 18</span>
-					</div>
-					<div class="related-content">
-						<figure>
-							<img src="img/related_3.jpg" alt="related-3">
-							<figcaption class="caption-text-format c-t-align-right">Image by Calla Kesser/The New York Times</figcaption>
-						</figure>
-						<span class="display-block span-related-text"><strong>This Is the Free Jumpsuit You’ll Get With a $250,000 Ticket to Space</strong></span>
-						<span class="display-block caption-text-format">Oct. 16</span>
-					</div>
-					<div class="related-content related-margin-right">
-						<figure>
-							<img src="img/related_4.jpg" alt="related-4">
-							<figcaption class="caption-text-format c-t-align-right">Associated Press</figcaption>
-						</figure>
-						<span class="display-block span-related-text"><strong>Aleksei Leonov, First to Walk in Space, Dies at 85</strong></span>
-						<span class="display-block caption-text-format">Oct. 11</span>
-					</div>
-					<div class="related-content related-margin-right">
-						<figure>
-							<img src="img/related_5.jpg" alt="related-5">
-							<figcaption class="caption-text-format c-t-align-right">Image by Jonathan Nackseramd/Agence France-Presse - Getty Images</figcaption>
-						</figure>
-						<span class="display-block span-related-text"><strong>Nobel Prize in Physics Awarded for Studies of Earth’s Place in the Universe</strong></span>
-						<span class="display-block caption-text-format">Oct. 8</span>
-					</div>
-					<div class="related-content">
-						<figure>
-							<img src="img/related_6.jpg" alt="related-6">
-							<figcaption class="caption-text-format c-t-align-right">Alisson Farrand for The New York Times</figcaption>
-						</figure>
-						<span class="display-block span-related-text"><strong>An Astronaut Who Built Paths to Space for Other Women</strong></span>
-						<span class="display-block caption-text-format">Oct. 2</span>
-					</div>
-				</div>
-				
 
-				<div id="editors-pick">
-					<h3><strong><a href="#">Editor's pick</a></strong></h3>
-					<div class="related-content related-margin-right">
-						<figure>
-							<img src="img/related_9.jpg" alt="related-1">
-							<figcaption class="caption-text-format c-t-align-right">David Chelsea</figcaption>
-						</figure>
-						<span class="display-block span-related-text"><strong>The Chicken’s in the Oven, My Husband’s Out the Door</strong></span>
-						<span class="display-block caption-text-format">Oct. 25</span>
-					</div>
-					<div class="related-content related-margin-right">
-						<figure>
-							<img src="img/related_10.jpg" alt="related-1">
-							<figcaption class="caption-text-format c-t-align-right">Daniel Rodrigues for The New York Times
-							</figcaption>
-						</figure>
-						<span class="display-block span-related-text"><strong>Can a ‘Transformational Journey’ Change Your Life? Our Writer Had Her Doubts</strong></span>
-						<span class="display-block caption-text-format">Oct. 23</span>
-					</div>
-					<div class="related-content">
-						<figure>
-							<img src="img/related_11.jpg" alt="related-1">
-							<figcaption class="caption-text-format c-t-align-right">Justin T. Gellerson for The New York Times</figcaption>
-						</figure>
-						<span class="display-block span-related-text"><strong>Your Uber Driver Is ‘Retired’? You Shouldn’t Be Surprised</strong></span>
-						<span class="display-block caption-text-format">Oct. 25</span>
-					</div>
+	<section id="related-news">
+
+		<div id="related-container">
+			<h3><strong><a href="#">More in Space & Cosmos</a></strong></h3>
+			<div id="related-left">
+				<div class="related-content related-margin-right">
+					<figure>
+						<img src="img/related_1.jpg" alt="related-1">
+						<figcaption class="caption-text-format c-t-align-right">Tom Brenner for New York Times</figcaption>
+					</figure>
+					<span class="display-block span-related-text"><strong>Jeff Bezos’ Blue Origin to Partner With 3 Companies on NASA Moon Lander</strong></span>
+					<span class="display-block caption-text-format">Oct. 22</span>
+				</div>
+				<div class="related-content related-margin-right">
+					<figure>
+						<img src="img/related_2.jpg" alt="related-2">
+						<figcaption class="caption-text-format c-t-align-right">NASA, via Associated Press</figcaption>
+					</figure>
+					<span class="display-block span-related-text"><strong>Why NASA’s First All-Women Spacewalk Made History</strong></span>
+					<span class="display-block caption-text-format">Oct. 18</span>
+				</div>
+				<div class="related-content">
+					<figure>
+						<img src="img/related_3.jpg" alt="related-3">
+						<figcaption class="caption-text-format c-t-align-right">Image by Calla Kesser/The New York Times</figcaption>
+					</figure>
+					<span class="display-block span-related-text"><strong>This Is the Free Jumpsuit You’ll Get With a $250,000 Ticket to Space</strong></span>
+					<span class="display-block caption-text-format">Oct. 16</span>
+				</div>
+				<div class="related-content related-margin-right">
+					<figure>
+						<img src="img/related_4.jpg" alt="related-4">
+						<figcaption class="caption-text-format c-t-align-right">Associated Press</figcaption>
+					</figure>
+					<span class="display-block span-related-text"><strong>Aleksei Leonov, First to Walk in Space, Dies at 85</strong></span>
+					<span class="display-block caption-text-format">Oct. 11</span>
+				</div>
+				<div class="related-content related-margin-right">
+					<figure>
+						<img src="img/related_5.jpg" alt="related-5">
+						<figcaption class="caption-text-format c-t-align-right">Image by Jonathan Nackseramd/Agence France-Presse - Getty Images</figcaption>
+					</figure>
+					<span class="display-block span-related-text"><strong>Nobel Prize in Physics Awarded for Studies of Earth’s Place in the Universe</strong></span>
+					<span class="display-block caption-text-format">Oct. 8</span>
+				</div>
+				<div class="related-content">
+					<figure>
+						<img src="img/related_6.jpg" alt="related-6">
+						<figcaption class="caption-text-format c-t-align-right">Alisson Farrand for The New York Times</figcaption>
+					</figure>
+					<span class="display-block span-related-text"><strong>An Astronaut Who Built Paths to Space for Other Women</strong></span>
+					<span class="display-block caption-text-format">Oct. 2</span>
 				</div>
 			</div>
-			
-			
-			<aside id="related-right">
-				<h3><strong>Most Popular</strong></h3>
-				<span class="span-related-text">Thanksgiving Getaway: Going Someplace Other Than Grandmother’s House</span>
-				<span class="span-related-text">For Trump, No Joy in Mudville</span>
-				<span class="span-related-text">How Thom Yorke Learned to Stop Worrying and (Mostly) Love Rock Stardom</span>
-				<span class="span-related-text">Shifting Course, Democrats Plan First Floor Vote on Impeachment Inquiry</span>
-				<span class="span-related-text">How Did the Diner Menu Get So Long?</span>
-				<span class="span-related-text">Opinion: Early to Bed, Early to Rise Makes Me Exhausted, Depressed and Sick</span>
-				<span class="span-related-text">‘SNL’: Chance the Rapper Hosts as Bill Clinton Crashes a Trump Rally</span>
-				<span class="span-related-text">Maps: Kincade and Getty Fires, Evacuation Zones and Power Outages</span>
-				<span class="span-related-text">Special Operations Raid Said to Kill Senior Terrorist Leader in Syria</span>
-				<span class="span-related-text">1.5 Million Packages a Day: The Internet Brings Chaos to N.Y. Streets</span>
-			</aside>
-		</section>
-		<footer id="footer">
-			<div id="footer_header">
-				<img src="img/new_york_logo.png" alt="new york logo">			
-				<a>Go to Home Page &raquo;</a>
+
+
+			<div id="editors-pick">
+				<h3><strong><a href="#">Editor's pick</a></strong></h3>
+				<div class="related-content related-margin-right">
+					<figure>
+						<img src="img/related_9.jpg" alt="related-1">
+						<figcaption class="caption-text-format c-t-align-right">David Chelsea</figcaption>
+					</figure>
+					<span class="display-block span-related-text"><strong>The Chicken’s in the Oven, My Husband’s Out the Door</strong></span>
+					<span class="display-block caption-text-format">Oct. 25</span>
+				</div>
+				<div class="related-content related-margin-right">
+					<figure>
+						<img src="img/related_10.jpg" alt="related-1">
+						<figcaption class="caption-text-format c-t-align-right">Daniel Rodrigues for The New York Times
+						</figcaption>
+					</figure>
+					<span class="display-block span-related-text"><strong>Can a ‘Transformational Journey’ Change Your Life? Our Writer Had Her Doubts</strong></span>
+					<span class="display-block caption-text-format">Oct. 23</span>
+				</div>
+				<div class="related-content">
+					<figure>
+						<img src="img/related_11.jpg" alt="related-1">
+						<figcaption class="caption-text-format c-t-align-right">Justin T. Gellerson for The New York Times</figcaption>
+					</figure>
+					<span class="display-block span-related-text"><strong>Your Uber Driver Is ‘Retired’? You Shouldn’t Be Surprised</strong></span>
+					<span class="display-block caption-text-format">Oct. 25</span>
+				</div>
 			</div>
-			<div id="ul-footer-container">
-				<ul id="footer_first_list" class="ul-footer">
-					<li class="ul-title"><STRONG>NEWS</STRONG></li>
-	    <li><a href="_blank" title="link">Home Page</a></li>
-	    <li><a href="_blank" title="link">World</a></li>
-	    <li><a href="_blank" title="link">U.S.</a></li>
-	    <li><a href="_blank" title="link">Politics</a></li>
-	    <li><a href="_blank" title="link">Election 2020</a></li>
-	    <li><a href="_blank" title="link">New York</a></li>
-	    <li><a href="_blank" title="link">Business</a></li>
-	    <li><a href="_blank" title="link">Tech</a></li>
-	    <li><a href="_blank" title="link">Science</a></li>
-	    <li><a href="_blank" title="link">Sports</a></li>
-	    <li><a href="_blank" title="link">Obituaries</a></li>
-	    <li><a href="_blank" title="link">Today's Paper</a></li>
-	    <li><a href="_blank" title="link">Corrections</a></li>
-				</ul>
-			
+		</div>
+
+
+		<aside id="related-right">
+			<h3><strong>Most Popular</strong></h3>
+			<span class="span-related-text">Thanksgiving Getaway: Going Someplace Other Than Grandmother’s House</span>
+			<span class="span-related-text">For Trump, No Joy in Mudville</span>
+			<span class="span-related-text">How Thom Yorke Learned to Stop Worrying and (Mostly) Love Rock Stardom</span>
+			<span class="span-related-text">Shifting Course, Democrats Plan First Floor Vote on Impeachment Inquiry</span>
+			<span class="span-related-text">How Did the Diner Menu Get So Long?</span>
+			<span class="span-related-text">Opinion: Early to Bed, Early to Rise Makes Me Exhausted, Depressed and Sick</span>
+			<span class="span-related-text">‘SNL’: Chance the Rapper Hosts as Bill Clinton Crashes a Trump Rally</span>
+			<span class="span-related-text">Maps: Kincade and Getty Fires, Evacuation Zones and Power Outages</span>
+			<span class="span-related-text">Special Operations Raid Said to Kill Senior Terrorist Leader in Syria</span>
+			<span class="span-related-text">1.5 Million Packages a Day: The Internet Brings Chaos to N.Y. Streets</span>
+		</aside>
+	</section>
+	<footer id="footer">
+		<div id="footer_header">
+			<img src="img/new_york_logo.png" alt="new york logo">
+			<a>Go to Home Page &raquo;</a>
+		</div>
+		<div id="ul-footer-container">
+			<ul id="footer_first_list" class="ul-footer">
+				<li class="ul-title"><STRONG>NEWS</STRONG></li>
+				<li><a href="_blank" title="link">Home Page</a></li>
+				<li><a href="_blank" title="link">World</a></li>
+				<li><a href="_blank" title="link">U.S.</a></li>
+				<li><a href="_blank" title="link">Politics</a></li>
+				<li><a href="_blank" title="link">Election 2020</a></li>
+				<li><a href="_blank" title="link">New York</a></li>
+				<li><a href="_blank" title="link">Business</a></li>
+				<li><a href="_blank" title="link">Tech</a></li>
+				<li><a href="_blank" title="link">Science</a></li>
+				<li><a href="_blank" title="link">Sports</a></li>
+				<li><a href="_blank" title="link">Obituaries</a></li>
+				<li><a href="_blank" title="link">Today's Paper</a></li>
+				<li><a href="_blank" title="link">Corrections</a></li>
+			</ul>
+
 			<ul class="ul-footer">
 				<li class="ul-title"><STRONG>OPINION</STRONG></li>
-    <li><a href="_blank" title="link">Today's Opinion</a></li>
-    <li><a href="_blank" title="link">Op-ed Columnists</a></li>
-    <li><a href="_blank" title="link">Editorials</a></li>
-    <li><a href="_blank" title="link">Op-ed Contributors</a></li>
-    <li><a href="_blank" title="link">Letters</a></li>
-    <li><a href="_blank" title="link">Sunday Review</a></li>
-    <li><a href="_blank" title="link">Video: Opinion</a></li>
+				<li><a href="_blank" title="link">Today's Opinion</a></li>
+				<li><a href="_blank" title="link">Op-ed Columnists</a></li>
+				<li><a href="_blank" title="link">Editorials</a></li>
+				<li><a href="_blank" title="link">Op-ed Contributors</a></li>
+				<li><a href="_blank" title="link">Letters</a></li>
+				<li><a href="_blank" title="link">Sunday Review</a></li>
+				<li><a href="_blank" title="link">Video: Opinion</a></li>
 			</ul>
-			
+
 			<ul class="ul-footer">
 				<li class="ul-title"><STRONG>ARTS</STRONG></li>
-    <li><a href="_blank" title="link">Today's Arts</a></li>
-    <li><a href="_blank" title="link">Art & design</a></li>
-    <li><a href="_blank" title="link">Books</a></li>
-    <li><a href="_blank" title="link">Dance</a></li>
-    <li><a href="_blank" title="link">Movies</a></li>
-    <li><a href="_blank" title="link">Music</a></li>
-    <li><a href="_blank" title="link">Pop Culture</a></li>
-    <li><a href="_blank" title="link">Television</a></li>
-    <li><a href="_blank" title="link">Theater</a></li>
-    <li><a href="_blank" title="link">Video: Arts</a></li>
+				<li><a href="_blank" title="link">Today's Arts</a></li>
+				<li><a href="_blank" title="link">Art & design</a></li>
+				<li><a href="_blank" title="link">Books</a></li>
+				<li><a href="_blank" title="link">Dance</a></li>
+				<li><a href="_blank" title="link">Movies</a></li>
+				<li><a href="_blank" title="link">Music</a></li>
+				<li><a href="_blank" title="link">Pop Culture</a></li>
+				<li><a href="_blank" title="link">Television</a></li>
+				<li><a href="_blank" title="link">Theater</a></li>
+				<li><a href="_blank" title="link">Video: Arts</a></li>
 			</ul>
-			
+
 			<ul class="ul-footer">
 				<li class="ul-title"><STRONG>LIVING</STRONG></li>
-    <li><a href="_blank" title="link">Automobiles</a></li>
-    <li><a href="_blank" title="link">Crossword</a></li>
-    <li><a href="_blank" title="link">Education</a></li>
-    <li><a href="_blank" title="link">Food</a></li>
-    <li><a href="_blank" title="link">Health</a></li>
-    <li><a href="_blank" title="link">Jobs</a></li>
-    <li><a href="_blank" title="link">Magazine</a></li>
-    <li><a href="_blank" title="link">Parenting</a></li>
-    <li><a href="_blank" title="link">Real Estate</a></li>
-    <li><a href="_blank" title="link">Style</a></li>
-    <li><a href="_blank" title="link">T Magazine</a></li>
-    <li><a href="_blank" title="link">Travel</a></li>
-    <li><a href="_blank" title="link">Love</a></li>
+				<li><a href="_blank" title="link">Automobiles</a></li>
+				<li><a href="_blank" title="link">Crossword</a></li>
+				<li><a href="_blank" title="link">Education</a></li>
+				<li><a href="_blank" title="link">Food</a></li>
+				<li><a href="_blank" title="link">Health</a></li>
+				<li><a href="_blank" title="link">Jobs</a></li>
+				<li><a href="_blank" title="link">Magazine</a></li>
+				<li><a href="_blank" title="link">Parenting</a></li>
+				<li><a href="_blank" title="link">Real Estate</a></li>
+				<li><a href="_blank" title="link">Style</a></li>
+				<li><a href="_blank" title="link">T Magazine</a></li>
+				<li><a href="_blank" title="link">Travel</a></li>
+				<li><a href="_blank" title="link">Love</a></li>
 			</ul>
-			
+
 			<ul class="ul-footer">
 				<li class="ul-title"><STRONG>MORE</STRONG></li>
-    <li><a href="_blank" title="link">Reader Center</a></li>
-    <li><a href="_blank" title="link">Wirecutter</a></li>
-    <li><a href="_blank" title="link">Live Events</a></li>
-    <li><a href="_blank" title="link">The Learning Network</a></li>
-    <li><a href="_blank" title="link">Tools & Services</a></li>
-    <li><a href="_blank" title="link">N.Y.C. events guide</a></li>
-    <li><a href="_blank" title="link">Multimedia</a></li>
-    <li><a href="_blank" title="link">Photography</a></li>
-    <li><a href="_blank" title="link">Video</a></li>
-    <li><a href="_blank" title="link">Newsletters</a></li>
-    <li><a href="_blank" title="link">NYT store</a></li>
-    <li><a href="_blank" title="link">Times journeys</a></li>
-    <li><a href="_blank" title="link">Manage my account</a></li>
+				<li><a href="_blank" title="link">Reader Center</a></li>
+				<li><a href="_blank" title="link">Wirecutter</a></li>
+				<li><a href="_blank" title="link">Live Events</a></li>
+				<li><a href="_blank" title="link">The Learning Network</a></li>
+				<li><a href="_blank" title="link">Tools & Services</a></li>
+				<li><a href="_blank" title="link">N.Y.C. events guide</a></li>
+				<li><a href="_blank" title="link">Multimedia</a></li>
+				<li><a href="_blank" title="link">Photography</a></li>
+				<li><a href="_blank" title="link">Video</a></li>
+				<li><a href="_blank" title="link">Newsletters</a></li>
+				<li><a href="_blank" title="link">NYT store</a></li>
+				<li><a href="_blank" title="link">Times journeys</a></li>
+				<li><a href="_blank" title="link">Manage my account</a></li>
 			</ul>
-			
+
 			<ul class="ul-footer">
 				<li class="ul-title"><STRONG>SUBSCRIBE</STRONG></li>
 
-				<li class="footer-icon-list"><i class="fas fa-home"></i><a href="_blank" title="link"> Home Delivery</a></li>
-				<li class="footer-icon-list"><i class="fas fa-mail-bulk"></i><a href="_blank" title="link"> Digital Subscriptions</a></li>
-				<li class="footer-icon-list"><i class="fas fa-chess-board"></i><a href="_blank" title="link"> Crossword</a></li>
-    <li class="footer-icon-list"><i class="fas fa-utensils"></i><a href="_blank" title="link"> Cooking</a></li>
+				<li class="footer-icon-list"><i class="fas fa-home"></i> <a href="_blank" title="link">Home Delivery</a></li>
+				<li class="footer-icon-list"><i class="fas fa-mail-bulk"></i> <a href="_blank" title="link">Digital Subscriptions</a></li>
+				<li class="footer-icon-list"><i class="fas fa-chess-board"></i> <a href="_blank" title="link">Crossword</a></li>
+				<li class="footer-icon-list"><i class="fas fa-utensils"></i> <a href="_blank" title="link" id="cheesit">Cooking</a></li>
 
-    <li class="ul-smaller"><a href="_blank" title="link">Email Newsletters</a></li>
-    <li class="ul-smaller"><a href="_blank" title="link">Corporate Subscriptions</a></li>
-    <li class="ul-smaller" id="footer-li-border-bottom"><a href="_blank" title="link">education rate</a></li>
+				<li class="ul-smaller"><a href="_blank" title="link">Email Newsletters</a></li>
+				<li class="ul-smaller"><a href="_blank" title="link">Corporate Subscriptions</a></li>
+				<li class="ul-smaller" id="footer-li-border-bottom"><a href="_blank" title="link">education rate</a></li>
 
-    <li class="ul-smaller" id="footer-li-padding-top"><a href="_blank" title="link">mobile applications</a></li>
-    <li class="ul-smaller"><a href="_blank" title="link">Replica edition</a></li>
-    <li class="ul-smaller"><a href="_blank" title="link">Español</a></li>
-    <li class="ul-smaller"><a href="_blank" title="link">中文网</a></li>
+				<li class="ul-smaller" id="footer-li-padding-top"><a href="_blank" title="link">mobile applications</a></li>
+				<li class="ul-smaller"><a href="_blank" title="link">Replica edition</a></li>
+				<li class="ul-smaller"><a href="_blank" title="link">Español</a></li>
+				<li class="ul-smaller"><a href="_blank" title="link">中文网</a></li>
 				<li class="ul-smaller"><a href="_blank" title="link">Site Information Navigation</a></li>
 			</ul>
-			</div>
-			<div class="ul-footer-list">
-				<ul>
-					<li><a href="_blank" title="link">© 2019 The New York Times Company</a></li>
-	    			<li><a href="_blank" title="link">Contact Us</a></li>
-	    			<li><a href="_blank" title="link">Work with us</a></li>
-					<li><a href="_blank" title="link">Advertise</a></li>
-	    			<li><a href="_blank" title="link">T Brand Studio</a></li>
-	    			<li><a href="_blank" title="link">Your Ad Choices</a></li>
-	    			<li><a href="_blank" title="link">Privacy</a></li>
-	    			<li><a href="_blank" title="link">Terms of Service</a></li>
-	    			<li><a href="_blank" title="link">Terms of Sale</a></li>
-	    			<li><a href="_blank" title="link">Site Map</a></li>
-	    			<li><a href="_blank" title="link">Help</a></li>
-	    			<li><a href="_blank" title="link">Subscriptions</a></li>
-				</ul>
-			</div>
-			
-		</footer>
-	
-	
-	</body>
-	
-	
+		</div>
+		<div class="ul-footer-list">
+			<ul>
+				<li><a href="_blank" title="link">© 2019 The New York Times Company</a></li>
+				<li><a href="_blank" title="link">Contact Us</a></li>
+				<li><a href="_blank" title="link">Work with us</a></li>
+				<li><a href="_blank" title="link">Advertise</a></li>
+				<li><a href="_blank" title="link">T Brand Studio</a></li>
+				<li><a href="_blank" title="link">Your Ad Choices</a></li>
+				<li><a href="_blank" title="link">Privacy</a></li>
+				<li><a href="_blank" title="link">Terms of Service</a></li>
+				<li><a href="_blank" title="link">Terms of Sale</a></li>
+				<li><a href="_blank" title="link">Site Map</a></li>
+				<li><a href="_blank" title="link">Help</a></li>
+				<li><a href="_blank" title="link">Subscriptions</a></li>
+			</ul>
+		</div>
+
+	</footer>
+
+
+</body>
+
+
 </html>
