@@ -222,6 +222,11 @@ article p {
 	font-size: 14px;
 	color: #0077c5;
 }
+/* class for the links in the article */
+.article-link:link {
+	color: #0077c5;
+	text-decoration: underline;
+}
 
 /* Inflation theory section */
 
