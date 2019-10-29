@@ -1,29 +1,27 @@
-
-
 /* general classes */
 
 .border-thin-gray {
 	border-style: solid;
 	border-color: #d3d3d3;
 	border-width: thin;
-  }
-  
-  .c-t-align-right {
+}
+
+.c-t-align-right {
 	text-align: right;
-  }
-  
-  .display-block {
+}
+
+.display-block {
 	display: block;
-  }
-  
-  #cheesit {
+}
+
+#cheesit {
 	padding-left: 8px;
-  }
-  
-  
-  /* Header */
-  
-  #nav-id {
+}
+
+
+/* Header */
+
+#nav-id {
 	position: fixed;
 	border-right-style: none;
 	border-left-style: none;
@@ -32,48 +30,48 @@
 	padding-bottom: 5px;
 	background-color: #fff;
 	z-index: 2;
-  }
-  
-  .ul-nav-bar {
+}
+
+.ul-nav-bar {
 	list-style-type: none;
 	position: relative;
 	bottom: 5px;
-  }
-  
-  .ul-nav-bar li {
+}
+
+.ul-nav-bar li {
 	float: left;
 	padding-right: 25px;
-  }
-  
-  #ul-left {
+}
+
+#ul-left {
 	float: left;
 	padding-left: 15px;
-  }
-  
-  #text-left {
+}
+
+#text-left {
 	font-weight: bold;
 	font-size: 15px;
-  }
-  
-  #text-left:hover {
+}
+
+#text-left:hover {
 	text-decoration: underline;
-  }
-  
-  #logo {
+}
+
+#logo {
 	position: relative;
 	left: 320px;
 	top: 3px;
-  }
-  
-  #ul-right {
+}
+
+#ul-right {
 	float: right;
-  }
-  
-  #ul-right li {
+}
+
+#ul-right li {
 	float: right;
-  }
-  
-  #button-nav {
+}
+
+#button-nav {
 	position: relative;
 	height: 33px;
 	bottom: 7px;
@@ -87,193 +85,193 @@
 	padding-left: 12px;
 	padding-right: 12px;
 	padding-top: 5px;
-  }
-  
-  #button-nav:hover {
+}
+
+#button-nav:hover {
 	background-color: #000;
-  }
-  
-  #link-nav:link {
+}
+
+#link-nav:link {
 	color: #323232;
 	text-decoration: underline;
-  }
-  
-  #link-nav:hover {
+}
+
+#link-nav:hover {
 	color: #000;
-  }
-  
-  
-  /* Main */
-  
-  main {
+}
+
+
+/* Main */
+
+main {
 	padding-top: 35px;
 	padding-left: 50px;
-  }
-  
-  
-  /* Main-Header */
-  
-  #main-header {
+}
+
+
+/* Main-Header */
+
+#main-header {
 	padding-right: 25px;
-  }
-  
-  #main-header-title {
+}
+
+#main-header-title {
 	width: 35%;
 	font-size: 40px;
 	margin-left: 27%;
 	color: #191919;
 	font-style: italic;
 	font-weight: bold;
-  }
-  
-  #main-header-image {
+}
+
+#main-header-image {
 	width: 70%;
 	height: auto;
 	margin-left: 15%;
-  }
-  
-  #main-header-description {
+}
+
+#main-header-description {
 	width: 57%;
 	margin-left: 15%;
 	margin-top: 1%;
 	color: #808080;
 	font-size: 16px;
-  }
-  
-  #main-header-description span {
+}
+
+#main-header-description span {
 	color: #a6a6a6;
-  }
-  
-  
-  /* ARTICLE */
-  
-  article {
+}
+
+
+/* ARTICLE */
+
+article {
 	width: 45%;
 	margin-left: 25%;
 	margin-top: 35px;
-  }
-  
-  article p {
+}
+
+article p {
 	font-size: 25px;
 	color: #323232;
-  }
-  
-  
-  /* Article-Header */
-  
-  #article-header {
+}
+
+
+/* Article-Header */
+
+#article-header {
 	padding-right: 25px;
-  }
-  
-  #article-author {
+}
+
+#article-author {
 	color: black;
 	font-weight: bolder;
 	width: 100%;
 	font-size: 15px;
-  }
-  
-  #article-author a {
+}
+
+#article-author a {
 	text-decoration: underline;
 	text-decoration-color: #a3a3a3;
-  }
-  
-  #article-author a:hover {
+}
+
+#article-author a:hover {
 	text-decoration: none;
-  }
-  
-  #date-links-container {
+}
+
+#date-links-container {
 	width: 100%;
-  }
-  
-  #article-date {
+}
+
+#article-date {
 	float: left;
-  }
-  
-  #article-social-links {
+}
+
+#article-social-links {
 	float: right;
 	margin: 0;
-  }
-  
-  #article-social-links a:link {
+}
+
+#article-social-links a:link {
 	color: black;
-  }
-  
-  
-  /* Article-header log-in div */
-  
-  #log-in-div {
+}
+
+
+/* Article-header log-in div */
+
+#log-in-div {
 	clear: both;
 	border-style: solid;
 	border-width: thin;
 	width: 75%;
 	padding: 14px;
 	margin-top: 65px;
-  }
-  
-  #log-in-div:hover {
+}
+
+#log-in-div:hover {
 	cursor: pointer;
-  }
-  
-  #log-in-div span {
+}
+
+#log-in-div span {
 	display: block;
-  }
-  
-  #span-login-one {
+}
+
+#span-login-one {
 	font-size: 18px;
 	color: #1b1b1b;
 	font-weight: bold;
-  }
-  
-  #span-login-two {
+}
+
+#span-login-two {
 	font-size: 17px;
 	color: #373737;
-  }
-  
-  #span-login-two a:link {
+}
+
+#span-login-two a:link {
 	font-size: 14px;
 	color: #0077c5;
-  }
-  
-  
-  /* class for the links in the article */
-  
-  .article-link:link {
+}
+
+
+/* class for the links in the article */
+
+.article-link:link {
 	color: #0077c5;
 	text-decoration: underline;
-  }
-  
-  
-  /* Inflation theory section */
-  
-  #inflation-theory-info {
+}
+
+
+/* Inflation theory section */
+
+#inflation-theory-info {
 	position: relative;
 	right: 25%;
 	width: 945px;
-  }
-  
-  #inflation-title {
+}
+
+#inflation-title {
 	margin-bottom: 5px;
 	font-size: 20px;
-  }
-  
-  #inflation-description {
+}
+
+#inflation-description {
 	margin-top: 5px;
 	font-size: 15px;
 	color: #808080;
 	font-weight: lighter;
-  }
-  
-  #inf-img {
+}
+
+#inf-img {
 	width: 945px;
 	height: auto;
-  }
-  
-  #spans-inflation-container {
+}
+
+#spans-inflation-container {
 	position: absolute;
 	top: 150px;
-  }
-  
-  .span-inflation {
+}
+
+.span-inflation {
 	width: 220px;
 	font-size: 14px;
 	float: left;
@@ -282,74 +280,74 @@
 	word-spacing: 2px;
 	line-height: 17px;
 	font-weight: 300;
-  }
-  
-  .span-inflation-margin {
+}
+
+.span-inflation-margin {
 	margin-right: 20px;
-  }
-  
-  .span-inflation strong {
+}
+
+.span-inflation strong {
 	font-weight: bold;
-  }
-  
-  .separation-line {
+}
+
+.separation-line {
 	color: #666666;
 	width: 5%;
 	float: left;
 	margin-top: 50px;
 	display: block;
-  }
-  
-  #span-caption-inflation {
+}
+
+#span-caption-inflation {
 	display: inline-block;
 	margin-top: 65px;
 	font-size: 14px;
 	word-spacing: 2px;
 	color: #323232;
-  }
-  
-  
-  /* end of theory of inflation div */
-  
-  
-  /* Media in article */
-  
-  #emb-video {
+}
+
+
+/* end of theory of inflation div */
+
+
+/* Media in article */
+
+#emb-video {
 	width: 100%;
-  }
-  
-  #image-jumbo {
+}
+
+#image-jumbo {
 	width: 100%;
 	height: auto;
-  }
-  
-  
-  /* Article-footer */
-  
-  #article-footer {
+}
+
+
+/* Article-footer */
+
+#article-footer {
 	width: 100%;
-  }
-  
-  #button-footer:hover {
+}
+
+#button-footer:hover {
 	cursor: pointer;
 	background-color: #446277;
-  }
-  
-  .article-bottom-link:link {
+}
+
+.article-bottom-link:link {
 	color: #848484;
 	text-decoration: underline;
-  }
-  
-  .article-bottom-link:hover {
+}
+
+.article-bottom-link:hover {
 	text-decoration: none;
-  }
-  
-  #article-footer-container {
+}
+
+#article-footer-container {
 	width: 100%;
 	margin-top: 20px;
-  }
-  
-  #article-footer-container button {
+}
+
+#article-footer-container button {
 	float: left;
 	width: 50%;
 	height: 36px;
@@ -359,95 +357,95 @@
 	color: #fff;
 	font-size: 12px;
 	font-weight: bold;
-  }
-  
-  #article-footer-container ul {
+}
+
+#article-footer-container ul {
 	float: right;
-  }
-  
-  #article-footer-container a:link {
+}
+
+#article-footer-container a:link {
 	color: #000;
-  }
-  
-  
-  /* Related-content-Section */
-  
-  .span-related-text {
+}
+
+
+/* Related-content-Section */
+
+.span-related-text {
 	padding-top: 2px;
 	padding-bottom: 2px;
-  }
-  
-  .span-related-text:hover {
+}
+
+.span-related-text:hover {
 	cursor: pointer;
 	color: #666;
-  }
-  
-  
-  /* Related-container */
-  
-  #related-container img:hover {
+}
+
+
+/* Related-container */
+
+#related-container img:hover {
 	cursor: pointer;
-  }
-  
-  #related-container a:hover {
+}
+
+#related-container a:hover {
 	text-decoration: underline;
 	color: #666;
-  }
-  
-  
-  /* Related-left */
-  
-  .related-content {
+}
+
+
+/* Related-left */
+
+.related-content {
 	float: left;
 	width: 273px;
 	height: 292px;
-  }
-  
-  .related-margin-right {
+}
+
+.related-margin-right {
 	margin-right: 27px;
-  }
-  
-  .related-content img {
+}
+
+.related-content img {
 	width: 273px;
 	height: auto;
-  }
-  
-  .caption-text-format {
+}
+
+.caption-text-format {
 	font-size: 10px;
 	color: #808080;
-  }
-  
-  .related-content figcaption {
+}
+
+.related-content figcaption {
 	text-align: right;
-  }
-  
-  #related-news {
+}
+
+#related-news {
 	width: 90%;
 	margin-top: 115px;
 	margin-right: auto;
 	margin-left: auto;
-  }
-  
-  #related-container {
+}
+
+#related-container {
 	border-top-style: solid;
 	border-width: thin;
 	padding-top: 5px;
 	float: left;
 	width: 72%;
-  }
-  
-  
-  /* related right */
-  
-  #related-right {
+}
+
+
+/* related right */
+
+#related-right {
 	border-top-style: solid;
 	border-width: thin;
 	padding-top: 5px;
 	float: right;
 	width: 24%;
-  }
-  
-  #related-right span {
+}
+
+#related-right span {
 	display: block;
 	border-top-style: solid;
 	border-top-width: thin;
@@ -455,125 +453,123 @@
 	margin-top: 15px;
 	font-size: 18px;
 	font-weight: 500;
-  }
-  
-  #editors-pick {
+}
+
+#editors-pick {
 	clear: both;
 	border-top-style: solid;
 	border-width: thin;
 	padding-top: 3px;
-  }
-  
-  
-  /* Footer */
-  
-  footer {
+}
+
+
+/* Footer */
+
+footer {
 	display: block;
 	clear: both;
 	width: 90%;
 	margin-left: 5%;
-  }
-  
-  footer::before {
+}
+
+footer::before {
 	border-bottom: 1px solid rgb(226, 226, 226);
 	border-top: 2px solid rgb(226, 226, 226);
 	content: "";
 	display: block;
 	height: 1px;
 	margin-top: 0;
-  }
-  
-  #footer_header {
+}
+
+#footer_header {
 	width: 100%;
 	padding-top: 15px;
-  }
-  
-  #footer_header a {
+}
+
+#footer_header a {
 	float: right;
 	color: #3292d0;
-  }
-  
-  .ul-footer {
+}
+
+.ul-footer {
 	list-style-type: none;
 	float: left;
 	margin-left: 60px;
-  }
-  
-  #footer_first_list {
+}
+
+#footer_first_list {
 	padding-left: 0;
 	margin-left: 0;
-  }
-  
-  .ul-footer li {
+}
+
+.ul-footer li {
 	padding-bottom: 5px;
-  }
-  
-  .ul-footer li a:hover {
+}
+
+.ul-footer li a:hover {
 	text-decoration: underline;
 	cursor: pointer;
-  }
-  
-  .ul-title {
+}
+
+.ul-title {
 	margin-bottom: 8px;
-  }
-  
-  .footer-icon-list {
+}
+
+.footer-icon-list {
 	font-size: 16px;
 	font-weight: bold;
 	margin-bottom: 8px;
-  }
-  
-  .footer-icon-list a {
+}
+
+.footer-icon-list a {
 	padding-left: 5px;
-  }
-  
-  #footer-li-border-bottom {
+}
+
+#footer-li-border-bottom {
 	border-bottom-style: solid;
 	border-bottom-width: thin;
 	border-bottom-color: #a3a3a3;
 	padding-bottom: 6px;
-  }
-  
-  #footer-li-padding-top {
+}
+
+#footer-li-padding-top {
 	padding-top: 6px;
-  }
-  
-  .ul-smaller {
+}
+
+.ul-smaller {
 	font-size: 13px;
 	margin-bottom: 3px;
-  }
-  
-  #ul-footer-container {
+}
+
+#ul-footer-container {
 	display: block;
-  }
-  
-  .ul-footer-list {
+}
+
+.ul-footer-list {
 	display: block;
 	width: 90%;
 	margin-left: 5%;
 	margin-bottom: 5%;
 	clear: both;
-  }
-  
-  .ul-footer-list ul {
+}
+
+.ul-footer-list ul {
 	list-style-type: none;
 	position: relative;
-  }
-  
-  .ul-footer-list ul li {
+}
+
+.ul-footer-list ul li {
 	float: left;
 	font-size: 12px;
 	padding-right: 10px;
 	color: #a3a3a3;
-  }
-  
-  .ul-footer-list ul li a {
+}
+
+.ul-footer-list ul li a {
 	color: #828282;
-  }
-  
-  .ul-footer-list ul li a:hover {
+}
+
+.ul-footer-list ul li a:hover {
 	text-decoration: underline;
 	cursor: pointer;
-  }
-  
-  
+}
