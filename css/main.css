@@ -1,5 +1,10 @@
 /* general classes */
 
+.ul-footer li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .ul-footer-list ul li a:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -549,9 +554,4 @@ footer::before {
 #related-container a:hover {
   text-decoration: underline;
   color: #666;
-}
-
-.ul-footer li a:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
