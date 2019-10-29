@@ -75,8 +75,6 @@
   bottom: 5px;
 }
 
-
-
 #ul-left {
   float: left;
   padding-left: 15px;
@@ -388,8 +386,9 @@ article p {
 
 /* Related-container */
 
-.related-margin-right {
-  margin-right: 27px;
+.related-content img {
+  width: 273px;
+  height: auto;
 }
 
 #related-container img:hover {
@@ -404,9 +403,8 @@ article p {
   height: 292px;
 }
 
-.related-content img {
-  width: 273px;
-  height: auto;
+.related-margin-right {
+  margin-right: 27px;
 }
 
 .caption-text-format {
