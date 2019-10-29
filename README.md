@@ -1,5 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
 <br />
 <p align="center">
  
