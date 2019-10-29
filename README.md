@@ -94,6 +94,11 @@ Project Link: [Project repo](https://github.com/kalavhan/DisplayingandInputtingD
 
 
 
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/badge/Contributors-2-%2300ff00
+[contributors-url]: https://github.com/Fig77/YoutubeClone-Facu-Josue/graphs/contributors
+[issues-shield]: https://img.shields.io/badge/issues-0-%2300ff00
+[issues-url]: https://github.com/Fig77/YoutubeClone-Facu-Josue/issues
 [product-screenshot]: img/product_ss.png
