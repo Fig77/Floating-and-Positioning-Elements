@@ -1,4 +1,4 @@
-/* classes */
+/* general classes */
 
 .border-thin-gray {
 	border-style: solid;
@@ -6,21 +6,12 @@
 	border-width: thin;
 }
 
-
-
-/* Re-usable properties classes */
-/* Actually just made this when refactoring some code, where I had to change a few tags. Therefore, instead of re-doing some css was easier and shorter to do it like this. I honestly don't know how to feel about creating a class for just one property. Yeah you don't have to write it again, but you do anyways at least in the element. */
-/* Also edited the reset so figure has a default margin of 0. */
-.c-float-right {
-	float: right;
-}
-
-.c-float-left {
-	float: left;
-}
-
 .c-t-align-right {
 	text-align: right;
+}
+
+.display-block {
+	display: block;
 }
 
 /* Header */
@@ -51,21 +42,23 @@
 	padding-left: 15px;
 }
 
+#text-left {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#logo {
+	position: relative;
+	left: 320px;
+	top: 3px;
+}
+
 #ul-right {
 	float: right;
 }
 
 #ul-right li {
 	float: right;
-}
-#text-left {
-	font-weight: bold;
-	font-size: 15px;
-}
-#logo {
-	position: relative;
-	left: 320px;
-	top: 3px;
 }
 
 #button-nav {
@@ -89,15 +82,15 @@
 }
 
 /* Main */
+
 main {
 	padding-top: 35px;
 	padding-left: 50px;
 }
-#main-header {
-	padding-right: 25px;
-}
 
-#article-header {
+/* Main-Header */
+
+#main-header {
 	padding-right: 25px;
 }
 
@@ -128,12 +121,55 @@ main {
 	color: #a6a6a6;
 }
 
+/* ARTICLE */
+
+article {
+	width: 45%;
+	margin-left: 25%;
+	margin-top: 35px;
+}
+
+article p {
+	font-size: 25px;
+	color: #323232;
+}
+
+/* Article-Header */
+
+#article-header {
+	padding-right: 25px;
+}
+
+#article-author {
+	color: black;
+	font-weight: bolder;
+	width: 100%;
+	font-size: 15px;
+}
+
+#date-links-container {
+	width: 100%;
+}
+
+#article-date {
+	float: left;
+}
+
+#article-social-links {
+	float: right;
+	margin: 0;
+}
+
+#article-social-links a:link {
+	color: black;
+}
+
+/* Article-header log-in div */
+
 #log-in-div {
 	clear: both;
-
 	border-style: solid;
 	border-width: thin;
-
 	width: 75%;
 	padding: 14px;
 	margin-top: 65px;
@@ -156,40 +192,8 @@ main {
 	font-size: 14px;
 	color: #0077c5;
 }
-article {
-	width: 45%;
-	margin-left: 25%;
-	margin-top: 35px;
-}
 
-article p {
-	font-size: 25px;
-	color: #323232;
-}
-
-#article-author {
-	color: black;
-	font-weight: bolder;
-	width: 100%;
-	font-size: 15px;
-}
-
-#ate-links-container {
-	width: 100%;
-}
-
-#article-date {
-	float: left;
-}
-
-#article-social-links {
-	float: right;
-	margin: 0;
-}
-
-#article-social-links a:link {
-	color: black;
-}
+/* Inflation theory section */
 
 #inflation-theory-info {
 	position: relative;
@@ -208,14 +212,17 @@ article p {
 	color: #808080;
 	font-weight: lighter;
 }
+
 #inf-img {
 	width: 945px;
 	height: auto;
 }
+
 #spans-inflation-container {
 	position: absolute;
 	top: 150px;
 }
+
 .span-inflation {
 	display: inline-block;
 	width: 220px;
@@ -229,9 +236,11 @@ article p {
 	line-height: 17px;
 	font-weight: 300;
 }
+
 .span-inflation-margin {
 	margin-right: 20px;
 }
+
 .span-inflation strong {
 	font-weight: bold;
 }
@@ -252,23 +261,27 @@ article p {
 	color: #323232;
 }
 
+/* end of theory of inflation div */
+
+/* Media in article */
+
 #emb-video {
-	border: 0px; /* The frameborder attribute on the iframe element is obsolete */
 	width: 100%;
 }
-
 
 #image-jumbo {
 	width: 100%;
 	height: auto;
 }
 
-.article-bottom-link:link {
-	color: #848484;
-}
+/* Article-footer */
 
 #article-footer {
 	width: 100%;
+}
+
+.article-bottom-link:link {
+	color: #848484;
 }
 
 #article-footer-container {
@@ -296,15 +309,9 @@ article p {
 	color: #000;
 }
 
-
-
-
-
 /* Related-content-Section */
 
 /* Related-container */
-
-
 
 /* Related-left */
 
@@ -329,9 +336,6 @@ article p {
 }
 .related-content figcaption {
 	text-align: right;
-}
-.display-block {
-	display: block;
 }
 
 #related-news {
@@ -368,6 +372,7 @@ article p {
 }
 
 /* Footer */
+
 footer {
 	display: block;
 	clear: both;
