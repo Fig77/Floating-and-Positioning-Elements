@@ -1,7 +1,12 @@
 linters:
   stylelint:
-    config: 'stylelint.config.js'
-    fixer: true
-
-
-  
+    config: './stylelint.config.js'
+​
+fixers:
+    enable: true
+​
+branches:
+    # Ignore pull requests to the named branches
+    ignore:
+        - 'master'        
+​
