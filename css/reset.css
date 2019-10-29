@@ -347,3 +347,16 @@ template {
 [hidden] {
   display: none;
 }
+
+figure{
+	margin: 0;
+}
+
+iframe{
+	border: 0px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #000;
+}
