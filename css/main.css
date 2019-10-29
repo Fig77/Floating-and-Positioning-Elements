@@ -1,5 +1,9 @@
 /* general classes */
 
+.ul-footer-list ul li a {
+  color: #828282;
+}
+
 .ul-footer li a:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -528,10 +532,6 @@ footer::before {
   font-size: 12px;
   padding-right: 10px;
   color: #a3a3a3;
-}
-
-.ul-footer-list ul li a {
-  color: #828282;
 }
 
 #article-social-links a:link {
