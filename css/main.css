@@ -168,10 +168,6 @@ article p {
   text-decoration-color: #a3a3a3;
 }
 
-#article-author a:hover {
-  text-decoration: none;
-}
-
 #date-links-container {
   width: 100%;
 }
@@ -183,10 +179,6 @@ article p {
 #article-social-links {
   float: right;
   margin: 0;
-}
-
-#article-social-links a:link {
-  color: black;
 }
 
 /* Article-header log-in div */
@@ -217,11 +209,6 @@ article p {
 #span-login-two {
   font-size: 17px;
   color: #373737;
-}
-
-#span-login-two a:link {
-  font-size: 14px;
-  color: #0077c5;
 }
 
 /* class for the links in the article */
@@ -350,10 +337,6 @@ article p {
   float: right;
 }
 
-#article-footer-container a:link {
-  color: #000;
-}
-
 /* Related-content-Section */
 
 .span-related-text {
@@ -370,11 +353,6 @@ article p {
 
 #related-container img:hover {
   cursor: pointer;
-}
-
-#related-container a:hover {
-  text-decoration: underline;
-  color: #666;
 }
 
 /* Related-left */
@@ -488,11 +466,6 @@ footer::before {
   padding-bottom: 5px;
 }
 
-.ul-footer li a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 .ul-title {
   margin-bottom: 8px;
 }
@@ -549,6 +522,33 @@ footer::before {
 
 .ul-footer-list ul li a {
   color: #828282;
+}
+
+#article-social-links a:link {
+  color: black;
+}
+
+#article-author a:hover {
+  text-decoration: none;
+}
+
+#span-login-two a:link {
+  font-size: 14px;
+  color: #0077c5;
+}
+
+#article-footer-container a:link {
+  color: #000;
+}
+
+#related-container a:hover {
+  text-decoration: underline;
+  color: #666;
+}
+
+.ul-footer li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .ul-footer-list ul li a:hover {
