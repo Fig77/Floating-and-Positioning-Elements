@@ -1,15 +1,15 @@
 /* general classes */
-.nav-bar-general-properties{
-	position: fixed;
+.nav-bar-general-properties {
+  position: fixed;
   border-right-style: none;
   border-left-style: none;
   height: 36px;
   width: 100vw;
-	z-index: 2;
+  z-index: 2;
 }
 
 button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .footer-icon-list a {
@@ -143,9 +143,9 @@ button:hover {
   color: #000;
 }
 
-#b-hamburguer{
-	border-style: none;
-	background: none;
+#b-hamburguer {
+  border-style: none;
+  background: none;
 }
 
 /* Main */
@@ -485,7 +485,7 @@ footer {
   clear: both;
   width: 90%;
   margin-left: 5%;
-	margin-bottom: 36px;
+  margin-bottom: 36px;
 }
 
 footer::before {
@@ -582,32 +582,31 @@ footer::before {
   color: #666;
 }
 
-#footer-nav-bar{
-	bottom: 0;
-	left: 0;
-	border-style: solid;
+#footer-nav-bar {
+  bottom: 0;
+  left: 0;
+  border-style: solid;
   background-color: #fff;
-	border-top-color: #000;
-	border-left-style: none;
-	border-right-style: none;
-	border-width: thin;
-  
+  border-top-color: #000;
+  border-left-style: none;
+  border-right-style: none;
+  border-width: thin;
 }
 
-#footer-nav-bar:hover{
-	cursor: pointer;
+#footer-nav-bar:hover {
+  cursor: pointer;
 }
 
-.footer-nav-bar-text{
-	font-size: 12px;
-	float: right;
-	margin-top: 12px;
+.footer-nav-bar-text {
+  font-size: 12px;
+  float: right;
+  margin-top: 12px;
 }
 
-#footer-nav-bar-acces-text{
-	margin-right: 290px;
+#footer-nav-bar-acces-text {
+  margin-right: 290px;
 }
 
-#footer-nav-bar-expand{
-	margin-right: 200px;
+#footer-nav-bar-expand {
+  margin-right: 200px;
 }
