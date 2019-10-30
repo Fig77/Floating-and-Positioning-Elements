@@ -8,10 +8,6 @@
   z-index: 2;
 }
 
-.article-link a:visited {
-  color: #0077c5;
-}
-
 button:hover {
   cursor: pointer;
 }
@@ -22,6 +18,10 @@ button:hover {
 
 .ul-footer-list ul li a {
   color: #828282;
+}
+
+.article-link a:visited {
+  color: #0077c5;
 }
 
 .ul-footer li a:hover {
