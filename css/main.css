@@ -20,6 +20,10 @@ button:hover {
   color: #828282;
 }
 
+.ul-footer-list ul li a:visited {
+  color: #828282;
+}
+
 .ul-footer li a:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -263,6 +267,10 @@ article p {
 .article-link:link {
   color: #0077c5;
   text-decoration: underline;
+}
+
+.article-link a:visited {
+  color: #0077c5;
 }
 
 /* Inflation theory section */
@@ -558,6 +566,10 @@ footer::before {
 
 #span-login-two a:link {
   font-size: 14px;
+  color: #0077c5;
+}
+
+#span-login-two a:visited {
   color: #0077c5;
 }
 
