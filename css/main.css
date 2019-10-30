@@ -8,6 +8,10 @@
   z-index: 2;
 }
 
+.article-link a:visited {
+  color: #0077c5;
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -20,13 +24,13 @@ button:hover {
   color: #828282;
 }
 
-.ul-footer-list ul li a:visited {
-  color: #828282;
-}
-
 .ul-footer li a:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.ul-footer-list ul li a:visited {
+  color: #828282;
 }
 
 .ul-footer-list ul li a:hover {
@@ -267,10 +271,6 @@ article p {
 .article-link:link {
   color: #0077c5;
   text-decoration: underline;
-}
-
-.article-link a:visited {
-  color: #0077c5;
 }
 
 /* Inflation theory section */
