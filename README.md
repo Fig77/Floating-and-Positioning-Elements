@@ -40,17 +40,17 @@ This is our third Microverse Project.
 ### Objective
  -Getting familiar with ways of positioning elements with CSS.
  -Getting familiar with the box model.
- -Getting understanding of floating elements.
- -Getting accustomed to remote programming enviroment
+ -Getting an understanding of floating elements.
+ -Getting accustomed to a remote programming environment
  
 ### Assignment:
  
 
-   1. Go to the ![NYT article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) in question and have a look around.
+   1. Go to the [NYT article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) in question and have a look around.
    2. Create a blank HTML document.
-   3. Plan out how the elements on the page need to be grouped together.
-   4. Lay out the empty semantic HTML elements for the major sections (form, sidebar, footer…) and make them  	 the proper size and alignment. It may be helpful to change their background colors while you’re      	 positioning them on the page. Don’t forget to use your browser’s developer tools (right click on the 	 page, click “inspect element”)!
-   5. Set up the top navigation bar (again, don’t worry about making it change when you scroll down the 	 page). How can you get it to stick to the top of the page as you scroll down?
+   3. Plan out how the elements on the page need to be grouped.
+   4. Layout the empty semantic HTML elements for the major sections (form, sidebar, footer…) and make them the proper size and alignment. It may be helpful to change their background colors while you’re positioning them on the page. Don’t forget to use your browser’s developer tools (right-click on the page, click “inspect element”)!
+   5. Set up the top navigation bar (again, don’t worry about making it change when you scroll down the page). How can you get it to stick to the top of the page as you scroll down?
    6. Fill in and position the additional sections. Don’t worry about enclosing every paragraph of text in <p> tags.
    7. Push your solution up to Github and you’re good to go!
 
@@ -59,7 +59,7 @@ This is our third Microverse Project.
 
 
 ### Built With
-This project was built using raw html and css, and all support necessary for using font awesome.* 
+This project was built using raw HTML and CSS, and all support necessary for using font awesome.* 
 
 
 <!-- USAGE EXAMPLES -->
